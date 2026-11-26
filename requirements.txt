@@ -1,0 +1,11 @@
+freqtrade==2026.10
+# packages some community strategies import
+cachetools
+python-rapidjson
+arrow
+scikit-optimize
+finta
+ta
+scikit-learn
+sqlalchemy
+tabulate

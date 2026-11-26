@@ -4,7 +4,7 @@ import ast, collections, json, os, sys
 
 pool = sys.argv[1]
 STD_OK = {"freqtrade", "talib", "numpy", "pandas", "technical", "datetime", "typing", "functools", "math", "logging",
-          "pandas_ta", "scipy", "warnings", "decimal", "enum", "time", "statistics", "collections", "itertools", "abc", "copy"}
+          "pandas_ta", "scipy", "warnings", "decimal", "enum", "time", "statistics", "collections", "itertools", "abc", "copy", "array"}
 RISKY_MODULES = {"requests", "urllib", "socket", "subprocess", "http", "aiohttp", "websocket", "websockets", "paramiko",
                  "ftplib", "smtplib", "ctypes", "pickle", "marshal", "shutil", "telegram", "httpx"}
 RISKY_CALLS = {"eval", "exec", "compile", "__import__", "system", "popen", "b64decode", "remove", "rmtree", "unlink"}

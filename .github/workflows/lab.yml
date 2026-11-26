@@ -1,0 +1,121 @@
+# The whole test, on GitHub's machines. Third-party strategy code runs only in read-only jobs;
+# the single job with write access (publish) runs none of it.
+name: lab
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Test only the first N strategies (0 = all). Use a small number for a smoke test."
+        default: "0"
+      shards:
+        description: "Parallel machines"
+        default: "25"
+permissions:
+  contents: read
+env:
+  DATADIR: user_data/data/okx
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      shards: ${{ steps.m.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.13", cache: pip }
+      - run: pip install -q -r requirements.txt
+      - id: data
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.DATADIR }}
+          key: data-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
+      - if: steps.data.outputs.cache-hit != 'true'
+        run: python -m lab.get_data $DATADIR
+      - run: python -m lab.prepare work
+      - run: python -m lab.config work/config.json $DATADIR
+      - name: Load check (runs third-party code)
+        run: |
+          python -m lab.load_check work/pool work
+          python - <<'PY'
+          import json, os
+          limit = int("${{ inputs.limit }}" or 0)
+          r = json.load(open("work/runnable.json"))
+          ctrl = [c["strategy"] for c in json.load(open("work/candidates.json"))["keep"] if "lookahead_bias" in (c["source"] or "")]
+          if limit:
+              r = sorted(set(r[:limit]) | (set(ctrl) & set(r)))
+          json.dump(r, open("work/runnable.json", "w"))
+          print(len(r), "strategies will be backtested")
+          PY
+      - id: m
+        run: python -c "import json;print('shards='+json.dumps(list(range(int('${{ inputs.shards }}')))))" >> $GITHUB_OUTPUT
+      - uses: actions/upload-artifact@v4
+        with: { name: work, path: work/, retention-days: 30 }
+
+  backtest:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJson(needs.prepare.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.13", cache: pip }
+      - run: pip install -q -r requirements.txt
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.DATADIR }}
+          key: data-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
+          fail-on-cache-miss: true
+      - uses: actions/download-artifact@v4
+        with: { name: work, path: work }
+      - run: python -m lab.run_shard work/runnable.json ${{ matrix.shard }} ${{ inputs.shards }} work/config.json work/pool results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: "results-${{ matrix.shard }}", path: results/, retention-days: 30 }
+
+  analyse:
+    needs: [prepare, backtest]
+    if: always() && needs.prepare.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.13", cache: pip }
+      - run: pip install -q -r requirements.txt
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.DATADIR }}
+          key: data-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
+          fail-on-cache-miss: true
+      - uses: actions/download-artifact@v4
+        with: { name: work, path: work }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "results-*", path: results, merge-multiple: true }
+      - run: python -m lab.aggregate results work $DATADIR
+      - name: Look-ahead check on the leaders and the controls (runs third-party code)
+        run: python -m lab.lookahead work/lookahead_targets.json work/config.json work/pool work/lookahead.json
+      - run: python -m lab.aggregate results work $DATADIR work/lookahead.json
+      - run: mkdir -p out && cp report.md results.csv work/lookahead.json work/candidates.json work/load_status.json out/
+      - uses: actions/upload-artifact@v4
+        with: { name: report, path: out/, retention-days: 90 }
+
+  publish:
+    needs: analyse
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { name: report, path: out }
+      - name: Push the report to the results branch
+        run: |
+          cd out
+          git init -q -b results
+          git add -A
+          git -c user.name="strategy-lab-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "results ${{ github.run_id }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" results
