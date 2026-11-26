@@ -98,6 +98,16 @@ def main(results_dir, work, datadir, lookahead=None):
                 row.update({f"{per}_{k}": v for k, v in ds.items()})
         rows.append(row)
 
+    # files that differ in text but trade identically are one strategy: keep the first, count the rest as copies
+    seen, behaviour_copies = {}, []
+    for r in sorted(rows, key=lambda r: r["strategy"]):
+        key = tuple((r.get(f"{p}_trades"), round(r.get(f"{p}_return") or 0, 6)) for p in PERIODS)
+        if r.get("select_trades") and key in seen:
+            behaviour_copies.append((r["strategy"], seen[key]))
+        else:
+            seen[key] = r["strategy"]
+    copy_names = {a for a, _ in behaviour_copies}
+    rows = [r for r in rows if r["strategy"] not in copy_names]
     ok = lambda r, per: r.get(f"{per}_trades", 0) >= MIN_TRADES and f"{per}_sr" in r
     sel = [r for r in rows if ok(r, "select")]
     sr0 = expected_max_sr([r["select_sr"] for r in sel])
@@ -125,7 +135,9 @@ def main(results_dir, work, datadir, lookahead=None):
          f"| step | strategies |", "|---|---|",
          f"| unique strategies after removing copies | {len(cand['keep']) + len(cand['dropped'])} |",
          f"| dropped by code vetting (risky code or unavailable package) | {len(cand['dropped'])} |",
-         f"| load in Freqtrade {loadable.get('_version', '')} | {sum(1 for k, v in loadable.items() if v == 'OK')} |",
+         f"| load in Freqtrade {loadable.get('_version', '')} | {sum(1 for k, v in loadable.items() if v == 'OK')} "
+         f"({sum(1 for c in cand['keep'] if c.get('compat_fixes'))} needed a one-line import/alias fix, logic untouched) |",
+         f"| backtested (after merging {len(behaviour_copies)} that trade identically to another) | {len(rows)} |",
          f"| backtested without error in both periods | {len(rows) - len(errors)} |",
          f"| ≥{MIN_TRADES} trades in the selection period | {len(sel)} |",
          f"| ≥{MIN_TRADES} trades in both periods | {len(both)} |", "",
@@ -147,6 +159,7 @@ def main(results_dir, work, datadir, lookahead=None):
           "|---|---|---|---|---|---|---|---|---|"]
     for r in picks:
         lk = la.get(r["strategy"], "—")
+        r["source"] = r["source"].replace("_freqtrade-strategies", "").replace("_HUGE_FreqTrade_Strategy_Collection", "")
         L.append(f"| {r['strategy']} | {r['source']} | {pct(r['select_return'])} | {r['select_sr_ann']:.2f} | {r['select_dsr']:.0%} | "
                  f"{r.get('confirm_trades', '—')} | {pct(r.get('confirm_return'))} | "
                  f"{r['confirm_sr_ann']:.2f} | {lk} |" if 'confirm_sr_ann' in r else
@@ -168,12 +181,20 @@ def main(results_dir, work, datadir, lookahead=None):
             r = next((x for x in rows if x["strategy"] == n), {})
             L.append(f"| {n} | {pct(r.get('select_return'))} | {la.get(n, '—')} |")
         L += ["", "If the look-ahead check does not flag these, the harness is not catching cheaters.", ""]
+    lf = {}
+    for k, v in loadable.items():
+        if k != "_version" and v != "OK":
+            kind = v.split(":")[0] if v.startswith("NAME") else v[:90]
+            lf[kind] = lf.get(kind, 0) + 1
+    if lf:
+        L += ["## Strategies that would not load", "", "| reason | strategies |", "|---|---|"] + \
+             [f"| {k} | {v} |" for k, v in sorted(lf.items(), key=lambda x: -x[1])[:10]] + [""]
     err_kinds = {}
     for r in errors:
         e = (r.get("select_error") or r.get("confirm_error") or "")
         k = "timeout" if e == "timeout" else e.split(":")[0][:60]
         err_kinds[k] = err_kinds.get(k, 0) + 1
-    L += ["## Failures", "", "| reason | strategies |", "|---|---|"] + \
+    L += ["## Backtest failures", "", "| reason | strategies |", "|---|---|"] + \
          [f"| {k} | {v} |" for k, v in sorted(err_kinds.items(), key=lambda x: -x[1])[:12]]
     L += ["", "Research only, not financial advice. Third-party strategies were run unmodified; sources and commits are in sources.txt."]
     Path("report.md").write_text("\n".join(l for l in L if l is not None), encoding="utf-8")

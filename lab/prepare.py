@@ -3,6 +3,8 @@ vet the code without running it, and drop what is risky or needs a package we do
 Usage: python -m lab.prepare <workdir>   -> <workdir>/pool/*.py, <workdir>/candidates.json"""
 import json
 import subprocess
+
+from .compat import patch
 import sys
 from pathlib import Path
 
@@ -43,7 +45,12 @@ def main(work):
             dropped.append({"strategy": r["strategy"], "source": manifest.get(r["strategy"]), "reason": why})
             (pool / f"{r['strategy']}.py").unlink()
         else:
-            keep.append({"strategy": r["strategy"], "source": manifest.get(r["strategy"]), "legacy_api": r["legacy_api"]})
+            f = pool / f"{r['strategy']}.py"
+            code, applied = patch(f.read_text(encoding="utf-8"))
+            if applied:
+                f.write_text(code, encoding="utf-8")
+            keep.append({"strategy": r["strategy"], "source": manifest.get(r["strategy"]), "legacy_api": r["legacy_api"],
+                         "compat_fixes": applied})
     json.dump({"keep": keep, "dropped": dropped}, open(work / "candidates.json", "w"), indent=1)
     print(f"candidates: {len(keep)} kept, {len(dropped)} dropped")
 
