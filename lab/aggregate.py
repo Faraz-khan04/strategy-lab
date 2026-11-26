@@ -42,9 +42,10 @@ def deflated(sr, skew, kurt, T, sr0):
 
 def expected_max_sr(srs):
     """The best Sharpe you'd expect from len(srs) strategies with no skill at all (False Strategy Theorem)."""
-    n, v = len(srs), st.pvariance(srs)
+    n = len(srs)
     if n < 2:
         return 0.0
+    v = st.pvariance(srs)
     return math.sqrt(v) * ((1 - EULER) * N01.inv_cdf(1 - 1 / n) + EULER * N01.inv_cdf(1 - 1 / (n * math.e)))
 
 

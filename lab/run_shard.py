@@ -46,7 +46,8 @@ def run_one(strategy, period, timerange, cfg, pool, tmp):
     try:
         res = compact(load_backtest_stats(d), strategy)
     except Exception as e:
-        return {"error": f"no result: {e}"[:300], "secs": secs}
+        tail = " / ".join(l.split(" - ")[-1] for l in (p.stdout + p.stderr).splitlines()[-6:])
+        return {"error": f"no result: {str(e)[:80]} | {tail}"[:600], "secs": secs}
     res["secs"] = secs
     shutil.rmtree(d, ignore_errors=True)
     return res
@@ -63,7 +64,7 @@ def main(runnable, shard, shards, cfg, pool, outdir):
         for period, tr in PERIODS.items():
             rec[period] = run_one(n, period, tr, cfg, pool, tmp)
         json.dump(rec, open(out / f"{n}.json", "w"))
-        summary = " | ".join(f"{p}: " + (r["error"][:60] if "error" in r else
+        summary = " | ".join(f"{p}: " + (r["error"][:400] if "error" in r else
                              f"{r['total_trades']} trades {r['profit_total'] * 100:+.1f}%") for p, r in
                              ((p, rec[p]) for p in PERIODS))
         print(f"{n}: {summary}", flush=True)
