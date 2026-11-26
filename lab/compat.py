@@ -5,7 +5,8 @@ import re
 FIXES = [
     (r"^from numpy\.lib import math\b.*$", "import math", re.M),
     (r"^from freqtrade\.state import RunMode\s*$", "from freqtrade.enums import RunMode", re.M),
-    (r"\bnp\.NaN\b", "np.nan", 0),
+    (r"\bnp\.(?:NaN|NAN)\b", "np.nan", 0),
+    (r"^from freqtrade\.strategy\.hyper import\b", "from freqtrade.strategy import", re.M),
     (r"\bnumpy\.NaN\b", "numpy.nan", 0),
     (r"\bnp\.NINF\b", "(-np.inf)", 0),
     (r"\bnp\.Inf\b", "np.inf", 0),
