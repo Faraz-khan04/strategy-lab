@@ -17,7 +17,6 @@ def config(datadir):
         "exit_pricing": {"price_side": "same", "use_order_book": False},
         "datadir": datadir, "dataformat_ohlcv": "feather",
         "internals": {"process_throttle_secs": 5},
-        "telegram": {"enabled": False}, "api_server": {"enabled": False},
     }
 
 
