@@ -1,0 +1,3714 @@
+{
+ "keep": [
+  {
+   "strategy": "ADXMomentum",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ADXMomentum.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ADXMomentum__c29827",
+   "source": "davidzr_freqtrade-strategies/strategies/ADXMomentum/ADXMomentum.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ADX_15M_USDT",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ADX_15M_USDT.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ADX_15M_USDT2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ADX_15M_USDT2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ASDTSRockwellTrading",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ASDTSRockwellTrading.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ASDTSRockwellTrading__b12557",
+   "source": "davidzr_freqtrade-strategies/strategies/ASDTSRockwellTrading/ASDTSRockwellTrading.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ActionZone",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ActionZone.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmas",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/AdxSmas.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmas__b333b0",
+   "source": "davidzr_freqtrade-strategies/strategies/AdxSmas/AdxSmas.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlligatorStrat",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/AlligatorStrat.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlligatorStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/AlligatorStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlmgrenChrissStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/AlmgrenChrissStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlwaysBuy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/AlwaysBuy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Apollo11",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Apollo11.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AverageStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/AverageStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AverageStrategy__954d92",
+   "source": "davidzr_freqtrade-strategies/strategies/AverageStrategy/AverageStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AwesomeMacd",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/AwesomeMacd.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AwesomeMacd__166fb9",
+   "source": "davidzr_freqtrade-strategies/strategies/AwesomeMacd/AwesomeMacd.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBMod1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBMod1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BBRSI2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSI2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSI21",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSI21.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSI3366",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSI3366.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSI4cust",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSI4cust.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSINaiveStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSINaiveStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSIOptim2020Strategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSIOptim2020Strategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSIOptimStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSIOptimStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSIOptimizedStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSIOptimizedStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSIS",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSIS.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSIStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSIStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSITV",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSITV.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSIoriginal",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSIoriginal.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBRSIv2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSIv2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_RPB_TSL",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RPB_TSL_2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RPB_TSL_BI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_BI.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RPB_TSL_RNG",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_RNG.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_RPB_TSL_RNG_2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_RNG_2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_RPB_TSL_RNG_TBS",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_RNG_TBS.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_RPB_TSL_RNG_TBS_GOLD",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_RNG_TBS_GOLD.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_RPB_TSL_RNG_VWAP",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_RNG_VWAP.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_RPB_TSL_SMA_Tranz",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_SMA_Tranz.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RPB_TSL_SMA_Tranz_TB_1_1_1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_SMA_Tranz_TB_1_1_1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RPB_TSL_SMA_Tranz_TB_MOD",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_SMA_Tranz_TB_MOD.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RPB_TSL_Tranz",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_Tranz.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RPB_TSL_c7c477d_20211030",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSL_c7c477d_20211030.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_RPB_TSLmeneguzzo",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RPB_TSLmeneguzzo.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BB_RSI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_RSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BB_Strategy04",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BB_Strategy04.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBands",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBands.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBandsRSI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBandsRSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BBlower",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBlower.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Babico_SMA5xBBmid",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Babico_SMA5xBBmid.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Bandtastic",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Bandtastic.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Bandtastic__374ad4",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/Bandtastic.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Bandtastic__6a01b6",
+   "source": "davidzr_freqtrade-strategies/strategies/Bandtastic/Bandtastic.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BbRoi",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BbRoi.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BbandRsi",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BbandRsi.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BbandRsiRolling",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BbandRsiRolling.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BbandRsi__782534",
+   "source": "davidzr_freqtrade-strategies/strategies/BbandRsi/BbandRsi.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BcmbigzDevelop",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BcmbigzDevelop.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BcmbigzV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BcmbigzV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigPete",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigPete.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ03",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ03.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ0307HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ0307HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ03HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ03HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ04",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ04.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ0407",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ0407.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ0407HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ0407HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ04HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ04HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ04HO2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ04HO2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ04_TSL3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ04_TSL3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ04_TSL4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ04_TSL4.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ06",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ06.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ07",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ07.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ07Next",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ07Next.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BigZ07Next2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BigZ07Next2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinClucMad",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BinClucMad.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BinClucMadDevelop",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BinClucMadDevelop.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "BinClucMadSMADevelop",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BinClucMadSMADevelop.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "BinClucMadV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BinClucMadV1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BinHV27",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BinHV27.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27__b64ec7",
+   "source": "davidzr_freqtrade-strategies/strategies/BinHV27/BinHV27.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27__f564de",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/BinHV27.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV45",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BinHV45.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV45HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BinHV45HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV45__5580bb",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/BinHV45.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV45__b519d4",
+   "source": "davidzr_freqtrade-strategies/strategies/BinHV45/BinHV45.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BreakEven",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BreakEven.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BreakEven__0d8e76",
+   "source": "davidzr_freqtrade-strategies/strategies/BreakEven/BreakEven.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BuyAllSellAllStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BuyAllSellAllStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BuyOnly",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BuyOnly.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CBPete9",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CBPete9.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CCIStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CCIStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CCIStrategy__a7d3ce",
+   "source": "davidzr_freqtrade-strategies/strategies/CCIStrategy/CCIStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CMCWinner",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CMCWinner.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CMCWinner__43dfc9",
+   "source": "davidzr_freqtrade-strategies/strategies/CMCWinner/CMCWinner.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Cci",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Cci.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Chandem",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Chandem.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Chandemtwo",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Chandemtwo.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Chispei",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Chispei.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Cluc4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Cluc4.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Cluc4werk",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Cluc4werk.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Cluc4werk__89563e",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Cluc4werk.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Cluc5werk",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Cluc5werk.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Cluc7werk",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Cluc7werk.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucCrypROI",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/ClucCrypROI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucCrypSlow",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/ClucCrypSlow.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucFiatROI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucFiatROI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucFiatSlow",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucFiatSlow.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix5m",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix5m.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_5m",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix_5m.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_5m1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix_5m1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_BB_RPB_MOD",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix_BB_RPB_MOD.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_BB_RPB_MOD2_ROI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix_BB_RPB_MOD2_ROI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_BB_RPB_MOD_CTT",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix_BB_RPB_MOD_CTT.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_BB_RPB_MOD_E0V1E_ROI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix_BB_RPB_MOD_E0V1E_ROI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix__c42edc",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/ClucHAnix.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_hhll",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAnix_hhll.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAwerk",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucHAwerk.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucMay72018",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ClucMay72018.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucMay72018__e50c7d",
+   "source": "davidzr_freqtrade-strategies/strategies/ClucMay72018/ClucMay72018.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Cluckie",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Cluckie.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CofiBitStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CofiBitStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CofiBitStrategy__e0f391",
+   "source": "davidzr_freqtrade-strategies/strategies/CofiBitStrategy/CofiBitStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndCluc",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndCluc.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndCluc2021",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndCluc2021.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndCluc2021Bull",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndCluc2021Bull.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndClucHyperV0",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucHyperV0.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndClucHyperV3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucHyperV3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndClucV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndClucV3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndClucV4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV4.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndClucV5",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV5.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndClucV5Hyperoptable",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV5Hyperoptable.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHAndClucV6",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV6.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndClucV6H",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV6H.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndClucV7",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV7.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndClucV8",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV8.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndClucV8Hyper",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV8Hyper.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndClucV8XH",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV8XH.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndClucV8XHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHAndClucV8XHO.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHAndCluc__fed8e5",
+   "source": "davidzr_freqtrade-strategies/strategies/CombinedBinHAndCluc/CombinedBinHAndCluc.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHClucAndMADV3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHClucAndMADV3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHClucAndMADV5",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHClucAndMADV5.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHClucAndMADV6",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHClucAndMADV6.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CombinedBinHClucAndMADV9",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CombinedBinHClucAndMADV9.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Combined_Indicators",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Combined_Indicators.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Combined_NFIv6_SMA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Combined_NFIv6_SMA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Combined_NFIv7_SMA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Combined_NFIv7_SMA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CoreStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CoreStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "CrossEMAStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CrossEMAStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CryptoFrog",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrog.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogHO.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogHO2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogHO2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogHO2A",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogHO2A.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogHO3A1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogHO3A1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogHO3A2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogHO3A2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogHO3A3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogHO3A3.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogHO3A4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogHO3A4.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogNFI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogNFI.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogNFIHO1A",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogNFIHO1A.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CryptoFrogOffset",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CryptoFrogOffset.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "CustomStoplossWithPSAR",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/CustomStoplossWithPSAR.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CustomStoplossWithPSAR__4b2732",
+   "source": "davidzr_freqtrade-strategies/strategies/CustomStoplossWithPSAR/CustomStoplossWithPSAR.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CustomStoplossWithPSAR__bef08c",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/CustomStoplossWithPSAR.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DCBBBounce",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/DCBBBounce.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "DD",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/DD.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DIV_v1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/DIV_v1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x4"
+   ]
+  },
+  {
+   "strategy": "DevilStra",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/DevilStra.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "DevilStra__566d66",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/lookahead_bias/DevilStra.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "Diamond",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Diamond.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Diamond__f50842",
+   "source": "davidzr_freqtrade-strategies/strategies/Diamond/Diamond.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "Divergences",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Divergences.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DoesNothingStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/DoesNothingStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DoesNothingStrategy__38a7db",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/berlinguyinca/DoesNothingStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DoubleEMACrossoverWithTrend",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/DoubleEMACrossoverWithTrend.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Dracula",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Dracula.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Dyna_opti",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Dyna_opti.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "EI3v2_tag_cofi_green",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EI3v2_tag_cofi_green.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMA50",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMA50.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "EMA520015_V17",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMA520015_V17.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMABBRSI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMABBRSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMABreakout",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMABreakout.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "EMAPriceCrossoverWithThreshold",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMAPriceCrossoverWithThreshold.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMASkipPump",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMASkipPump.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMASkipPump__ac9312",
+   "source": "davidzr_freqtrade-strategies/strategies/EMASkipPump/EMASkipPump.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMAVolume",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMAVolume.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMA_CROSSOVER_STRATEGY",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EMA_CROSSOVER_STRATEGY.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EXPERIMENTAL_STRATEGY",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/EXPERIMENTAL_STRATEGY.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV4.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV531",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV531.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV5HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV5HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV5HOMod2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV5HOMod2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV5HOMod3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV5HOMod3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV7",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV7.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV8HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV8HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV8_original",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV8_original.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV8_original_ichiv2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV8_original_ichiv2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV8_original_ichiv3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ElliotV8_original_ichiv3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Elliotv8",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Elliotv8.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Enchilada",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Enchilada.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FAdxSmaStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/FAdxSmaStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FOttStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/FOttStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "FRAYSTRAT",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FRAYSTRAT.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FReinforcedStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/FReinforcedStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FSampleStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/FSampleStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FSupertrendStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/FSupertrendStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Fakebuy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Fakebuy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FastSupertrend",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FastSupertrend.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrendOpt",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FastSupertrendOpt.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "FiveMinCrossAbove",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FiveMinCrossAbove.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FixedRiskRewardLoss",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FixedRiskRewardLoss.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FixedRiskRewardLoss__667236",
+   "source": "davidzr_freqtrade-strategies/strategies/FixedRiskRewardLoss/FixedRiskRewardLoss.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ForexSignal",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ForexSignal.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Freqtrade_backtest_validation_freqtrade1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Freqtrade_backtest_validation_freqtrade1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FrostAuraM115mStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FrostAuraM115mStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FrostAuraM11hStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FrostAuraM11hStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FrostAuraM21hStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FrostAuraM21hStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FrostAuraM315mStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FrostAuraM315mStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FrostAuraM31hStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FrostAuraM31hStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FrostAuraRandomStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/FrostAuraRandomStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GodCard",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/GodCard.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GodStra",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/GodStra.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "GodStraNew",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/GodStraNew.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "GodStraNew40",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/GodStraNew40.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "GodStraNew_SMAonly",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/GodStraNew_SMAonly.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "GodStraNew__d11747",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/lookahead_bias/GodStraNew.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "Guacamole",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Guacamole.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Gumbo1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Gumbo1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Hacklemore",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Hacklemore.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Hacklemore2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Hacklemore2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Hacklemore3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Hacklemore3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Hacklemore__07b320",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/HacklemoreX.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Hacklemost",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Hacklemost.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HansenSmaOffsetV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/HansenSmaOffsetV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HarmonicDivergence",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/HarmonicDivergence.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Heracles",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Heracles.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Heracles__1b73ce",
+   "source": "davidzr_freqtrade-strategies/strategies/Heracles/Heracles.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "HourBasedStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/HourBasedStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HourBasedStrategy__1b8b46",
+   "source": "davidzr_freqtrade-strategies/strategies/HourBasedStrategy/HourBasedStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HyperStra_GSN_SMAOnly",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/HyperStra_GSN_SMAOnly.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichess",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichess.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku_SenkouSpanCross",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku_SenkouSpanCross.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku_v12",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku_v12.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku_v30",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku_v30.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku_v31",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku_v31.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku_v32",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku_v32.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku_v33",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku_v33.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Ichimoku_v37",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichimoku_v37.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "InformativeSample",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/InformativeSample.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "InformativeSample__9b9c11",
+   "source": "davidzr_freqtrade-strategies/strategies/InformativeSample/InformativeSample.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Inverse",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Inverse.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "InverseV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/InverseV2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "JustROCR",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/JustROCR.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "JustROCR3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/JustROCR3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "JustROCR5",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/JustROCR5.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "JustROCR6",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/JustROCR6.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "KAMACCIRSI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/KAMACCIRSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "KAMACCIRSI_new",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/KAMACCIRSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "KC_BB",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/KC_BB.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Kamaflage",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Kamaflage.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Kamaflage__38274e",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/KamaRsi2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Lateralus",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Lateralus.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Leveraged",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Leveraged.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LookaheadStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/LookaheadStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Low_BB",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Low_BB.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "Low_BB__c41c4d",
+   "source": "davidzr_freqtrade-strategies/strategies/Low_BB/Low_BB.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "LuxOSC",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/LuxOSC.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MAC",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MAC.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDCCI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACDCCI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDCrossoverWithTrend",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACDCrossoverWithTrend.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDRSI200",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACDRSI200.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACDStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDStrategy__60bade",
+   "source": "davidzr_freqtrade-strategies/strategies/MACDStrategy/MACDStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDStrategy_crossed",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACDStrategy_crossed.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDStrategy_crossed__fe57b1",
+   "source": "davidzr_freqtrade-strategies/strategies/MACDStrategy_crossed/MACDStrategy_crossed.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACD_EMA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACD_EMA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACD_TRIPLE_MA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACD_TRIPLE_MA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACD_TRI_EMA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MACD_TRI_EMA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MADisplaceV3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MADisplaceV3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MFI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MFI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MabStra",
+   "source": "davidzr_freqtrade-strategies/strategies/mabStra/mabStra.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Macd",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Macd.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MacheteV8b",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MacheteV8b.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "MacheteV8bRallimod2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MacheteV8bRallimod2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "MarketChyperHyperStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MarketChyperHyperStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "Maro4hMacdSd",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Maro4hMacdSd.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Martin",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Martin.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MiniLambo",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MiniLambo.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Minmax",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Minmax.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MomStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MomStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Momentumv2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Momentumv2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MontrealStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MontrealStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MostOfAll",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MostOfAll.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "MultiMA_TSL",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MultiMA_TSL.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MultiMA_TSL3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MultiMA_TSL3.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "MultiMA_TSL3_Mod",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MultiMA_TSL3_Mod.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "MultiMa",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MultiMa.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MultiMa__0b4a44",
+   "source": "davidzr_freqtrade-strategies/strategies/MultiMa/MultiMa.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "MultiOffsetLamboV0",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MultiOffsetLamboV0.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MultiRSI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/MultiRSI.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MultiRSI__32ad8e",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/berlinguyinca/MultiRSI.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MultiRSI__bac746",
+   "source": "davidzr_freqtrade-strategies/strategies/MultiRSI/MultiRSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSRv6_private_Reinuvader_20211121",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NASOSRv6_private_Reinuvader_20211121.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NASOSv4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NASOSv4.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv5",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NASOSv5.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv5_mod1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NASOSv5_mod1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv5_mod1_DanMod",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NASOSv5_mod1_DanMod.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv5_mod2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NASOSv5_mod2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv5_mod3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NASOSv5_mod3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI46",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI46.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI46Frog",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI46Frog.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NFI46FrogZ",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI46FrogZ.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NFI46Offset",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI46Offset.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI46OffsetHOA1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI46OffsetHOA1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI46Z",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI46Z.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI47V2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI47V2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI4Frog",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI4Frog.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NFI5MOHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI5MOHO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI5MOHO2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI5MOHO2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI5MOHO_WIP",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI5MOHO_WIP.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI5MOHO_WIP_1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI5MOHO_WIP_1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI5MOHO_WIP_2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI5MOHO_WIP_2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFI731_BUSD",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI731_BUSD.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NFI7MOHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFI7MOHO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFINextMOHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFINextMOHO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFINextMOHO2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFINextMOHO2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFINextMultiOffsetAndHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFINextMultiOffsetAndHO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFINextMultiOffsetAndHO2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFINextMultiOffsetAndHO2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NFIX_BB_RPB",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFIX_BB_RPB.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NFIX_BB_RPB_c7c477d_20211030",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NFIX_BB_RPB_c7c477d_20211030.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NfiNextModded",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NfiNextModded.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "NormalizerStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NormalizerStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NormalizerStrategyHO2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NormalizerStrategyHO2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Nostalgia",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Nostalgia.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityNext",
+   "source": "iterativv_NostalgiaForInfinity/user_data/strategies/NostalgiaForInfinityNext.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityNextGen",
+   "source": "iterativv_NostalgiaForInfinity/user_data/strategies/NostalgiaForInfinityNextGen.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityNextGen_TSL",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityNextGen_TSL.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityNextGen__593c32",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityNextGen.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityNextV7155",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityNextV7155.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityNext_ChangeToTower_V5_2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityNext_ChangeToTower_V5_2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityNext_ChangeToTower_V5_3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityNext_ChangeToTower_V5_3.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityNext_ChangeToTower_V6",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityNext_ChangeToTower_V6.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityV3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV4.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV4HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV4HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV5",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV5.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV5MultiOffsetAndHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV5MultiOffsetAndHO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV5MultiOffsetAndHO2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV5MultiOffsetAndHO2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV6",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV6.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV6HO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV6HO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV7",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV7.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityV7_7_2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV7_7_2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityV7_SMAv2_1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityV7_SMAv2_1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX2",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX2__27de56",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityX2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX3",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX4",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX5",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX6",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX7",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX8",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX8.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX__bc3492",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityX.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NostalgiaForInfinityXw",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityXw.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "NotAnotherSMAOffSetStrategy_V2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffSetStrategy_V2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategyHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategyHO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategyHOv3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategyHOv3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategyLite",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategyLite.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategyModHO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategyModHO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategyModHO_LamineDz_20210901",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategyModHO_LamineDz_20210901.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategyX1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategyX1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategy_uzi",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategy_uzi.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NotAnotherSMAOffsetStrategy_uzi3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NotAnotherSMAOffsetStrategy_uzi3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NowoIchimoku1hV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NowoIchimoku1hV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NowoIchimoku1hV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NowoIchimoku1hV2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NowoIchimoku5mV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NowoIchimoku5mV2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ONUR",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ONUR.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ObeliskIM_v1_1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ObeliskIM_v1_1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ObeliskRSI_v6_1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ObeliskRSI_v6_1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Obelisk_3EMA_StochRSI_ATR",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Obelisk_3EMA_StochRSI_ATR.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Obelisk_Ichimoku_Slow_v1_3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Obelisk_Ichimoku_Slow_v1_3.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Obelisk_Ichimoku_ZEMA_v1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Obelisk_Ichimoku_ZEMA_v1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Obelisk_TradePro_Ichi_v1_1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Obelisk_TradePro_Ichi_v1_1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Obelisk_TradePro_Ichi_v2_1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Obelisk_TradePro_Ichi_v2_1.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "PRICEFOLLOWING",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/PRICEFOLLOWING.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "PRICEFOLLOWING2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/PRICEFOLLOWING2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "PRICEFOLLOWINGX",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/PRICEFOLLOWINGX.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "PatternRecognition",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/PatternRecognition.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Pmax",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Pmax.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "PowerTower",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/PowerTower.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "PrawnstarOBV",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/PrawnstarOBV.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "PumpDetector",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/PumpDetector.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Quickie",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Quickie.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Quickie__5adcb7",
+   "source": "davidzr_freqtrade-strategies/strategies/Quickie/Quickie.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIBB02",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RSIBB02.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIDirectionalWithTrend",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RSIDirectionalWithTrend.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIDirectionalWithTrendSlow",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RSIDirectionalWithTrendSlow.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RalliV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RalliV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RalliV1_disable56",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RalliV1_disable56.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RaposaDivergenceV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RaposaDivergenceV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ReinforcedAverageStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ReinforcedAverageStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ReinforcedAverageStrategy__3b96c6",
+   "source": "davidzr_freqtrade-strategies/strategies/ReinforcedAverageStrategy/ReinforcedAverageStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ReinforcedQuickie",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ReinforcedQuickie.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ReinforcedQuickie__5c1e0d",
+   "source": "davidzr_freqtrade-strategies/strategies/ReinforcedQuickie/ReinforcedQuickie.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ReinforcedSmoothScalp",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ReinforcedSmoothScalp.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ReinforcedSmoothScalp__2330f7",
+   "source": "davidzr_freqtrade-strategies/strategies/ReinforcedSmoothScalp/ReinforcedSmoothScalp.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Renko",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Renko.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RenkoYolo",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/RenkoYolo.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RobotradingBody",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RobotradingBody.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Roth01",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Roth01.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Roth03",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Roth03.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAIP3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAIP3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAIP3v2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAIP3v2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOG",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOG.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOPv1_TTF",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOPv1_TTF.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffset",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffset.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetProtectOpt",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetProtectOpt.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetProtectOptV0",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetProtectOptV0.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetProtectOptV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetProtectOptV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetProtectOptV1HO1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetProtectOptV1HO1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetProtectOptV1Mod",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetProtectOptV1Mod.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetProtectOptV1Mod2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetProtectOptV1Mod2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetProtectOptV1_kkeue_20210619",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetProtectOptV1_kkeue_20210619.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMAOffsetV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMAOffsetV2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SMA_BBRSI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SMA_BBRSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SRsi",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SRsi.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "STRATEGY_RSI_BB_BOUNDS_CROSS",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/STRATEGY_RSI_BB_BOUNDS_CROSS.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "STRATEGY_RSI_BB_CROSS",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/STRATEGY_RSI_BB_CROSS.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SampleStrategyV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SampleStrategyV2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Sar",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SAR.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Saturn5",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Saturn5.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Scalp",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Scalp.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Scalp__e2de7a",
+   "source": "davidzr_freqtrade-strategies/strategies/Scalp/Scalp.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Schism.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Schism2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism2MM",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Schism2MM.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Schism3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism4",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Schism4.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism5",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Schism5.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism6",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Schism6.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism6__017c51",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Schism-v1.6.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism__25a603",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Schism-Badstreak2.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x1"
+   ]
+  },
+  {
+   "strategy": "Schism__2bd898",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Schism-Badstreak.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x1"
+   ]
+  },
+  {
+   "strategy": "Schism__37f0d1",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Infinite_ROI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism__46ab7a",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Schism-v1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism__ca5fc7",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Schism.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism__cf62f4",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/SchismLess.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Schism__d506d6",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Schism-0318.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Seb",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Seb.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Simple",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Simple.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Simple__11568c",
+   "source": "davidzr_freqtrade-strategies/strategies/Simple/Simple.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlowPotato",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SlowPotato.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Slowbro",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Slowbro.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SmoothOperator",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SmoothOperator.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SmoothOperator__6aa627",
+   "source": "davidzr_freqtrade-strategies/strategies/SmoothOperator/SmoothOperator.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SmoothScalp",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SmoothScalp.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SmoothScalp__19da32",
+   "source": "davidzr_freqtrade-strategies/strategies/SmoothScalp/SmoothScalp.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Stavix2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Stavix2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Stinkfist",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Stinkfist.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x1"
+   ]
+  },
+  {
+   "strategy": "StochRSITEMA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/StochRSITEMA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy001",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Strategy001.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy001__dc3a93",
+   "source": "davidzr_freqtrade-strategies/strategies/Strategy001/Strategy001.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy001_custom_exit",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Strategy001_custom_exit.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy001_custom_sell",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Strategy001_custom_sell.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy002",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Strategy002.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy002__eee166",
+   "source": "davidzr_freqtrade-strategies/strategies/Strategy002/Strategy002.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy003",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Strategy003.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy003__662ef8",
+   "source": "davidzr_freqtrade-strategies/strategies/Strategy003/Strategy003.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy004",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Strategy004.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy004__8360d5",
+   "source": "davidzr_freqtrade-strategies/strategies/Strategy004/Strategy004.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy005",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Strategy005.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Strategy005__922c00",
+   "source": "davidzr_freqtrade-strategies/strategies/Strategy005/Strategy005.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "StrategyScalpingFast",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/StrategyScalpingFast.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "StrategyScalpingFast2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/StrategyScalpingFast2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SuperHV27",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SuperHV27.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SuperTrendPure",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SuperTrendPure.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "Supertrend",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Supertrend.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "SupertrendStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SupertrendStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Supertrend__4f794d",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Supertrend.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Supertrend__9751d8",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/Supertrend.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Supertrend__9fb282",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Supertrend_ORIG.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Supertrend__c6fb36",
+   "source": "davidzr_freqtrade-strategies/strategies/SuperTrend/SuperTrend.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1",
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "SwingHigh",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SwingHigh.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SwingHighToSky",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/SwingHighToSky.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SwingHighToSky__90af0a",
+   "source": "davidzr_freqtrade-strategies/strategies/SwingHighToSky/SwingHighToSky.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TDSequentialStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TDSequentialStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TDSequentialStrategy__471a8b",
+   "source": "davidzr_freqtrade-strategies/strategies/TDSequentialStrategy/TDSequentialStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TEMA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TEMA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TWAPStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/TWAPStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TechnicalExampleStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TechnicalExampleStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TechnicalExampleStrategy__5b476f",
+   "source": "davidzr_freqtrade-strategies/strategies/TechnicalExampleStrategy/TechnicalExampleStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TemaMaster",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TemaMaster.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TemaMaster3",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TemaMaster3.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TemaPure",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TemaPure.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TemaPureNeat",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TemaPureNeat.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TemaPureTwo",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TemaPureTwo.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TenderEnter",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TenderEnter.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TheForce",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TheForce.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TheRealPullbackV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TheRealPullbackV2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendFollowingStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/TrendFollowingStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendRiderStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/TrendRiderStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Trend_Strength_Directional",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Trend_Strength_Directional.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrixStrategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TrixStrategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrixV15Strategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TrixV15Strategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrixV21Strategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TrixV21Strategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrixV23Strategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/TrixV23Strategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "UltimateMomentumIndicator",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/UltimateMomentumIndicator.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "UniversalMACD",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/UniversalMACD.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "UziChan",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/UziChan.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "UziChan2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/UziChan2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "VWAP",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/VWAP.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "VolatilitySystem",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/VolatilitySystem.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "WaveTrendStra",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/WaveTrendStra.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "XebTradeStrat",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/XebTradeStrat.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "XtraThicc",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/XtraThicc.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "XtraThicc__62c7d8",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/XtraThicc.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "YOLO",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/YOLO.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "YOLO__ae126f",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/FisherHull.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Zeus",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/lookahead_bias/Zeus.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "adaptive",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/adaptive.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "adx_opt_strat",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/adx_opt_strat.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "adxbbrsi2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/adxbbrsi2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "bb_rsi_opt_new",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/bb_rsi_opt_new.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "bbema",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/bbema.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "bbrsi",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/BBRSI.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "bbrsi1_strategy",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/bbrsi1_strategy.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "bbrsi4Freq",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/bbrsi4Freq.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "bestV2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/bestV2.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "botbaby",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/botbaby.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "conny",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/conny.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "cryptohassle",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/cryptohassle.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "custom",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/custom.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "custom_sell",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/custom_sell.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "e6v34",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/e6v34.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ema",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ema.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "epretrace",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/epretrace.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "fahmibah",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/fahmibah.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "flawless_lambo",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/flawless_lambo.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "gettinMoist",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/gettinMoist.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "hansencandlepatternV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/hansencandlepatternV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "heikin",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/heikin.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "hlhb",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/hlhb.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "hlhb__a9a341",
+   "source": "davidzr_freqtrade-strategies/strategies/hlhb/hlhb.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ichi",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Ichis.py",
+   "legacy_api": true,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "ichiV1",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ichiV1.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ichiV1_Marius",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/ichiV1_Marius.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "keltnerchannel",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/keltnerchannel.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mabStra",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/mabStra.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "macd_recovery",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/macd_recovery.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mark_strat",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/mark_strat.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mark_strat_opt",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/mark_strat_opt.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "multi_tf",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/multi_tf.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "quantumfirst",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/quantumfirst.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "redditMA",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/redditMA.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "stratfib",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/stratfib.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "strato",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/strato.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "true_lambo",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/true_lambo.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "wtc",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/wtc.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "wtc__985d94",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/lookahead_bias/wtc.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  }
+ ],
+ "dropped": [
+  {
+   "strategy": "INSIDEUP",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/INSIDEUP.py",
+   "reason": "risky code: requests"
+  },
+  {
+   "strategy": "Ichi",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Ichi.py",
+   "reason": "risky code: os (file/env access), system"
+  },
+  {
+   "strategy": "NostalgiaForInfinityNext_maximizer",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/NostalgiaForInfinityNext_maximizer.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "Persia",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Persia.py",
+   "reason": "risky code: eval"
+  },
+  {
+   "strategy": "RSI",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RSI.py",
+   "reason": "risky code: requests"
+  },
+  {
+   "strategy": "RSIv2",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/RSIv2.py",
+   "reason": "risky code: requests"
+  },
+  {
+   "strategy": "Solipsis",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-tradedbexp.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis3",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-v3-fuck.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis3__463f20",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-v3.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis3__d80ce9",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis_v3.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis4",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis_v4.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis5",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-v2.5.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis5__3edcac",
+   "source": "werkkrew_freqtrade-strategies/strategies/solipsis/Solipsis_v5.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis6",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-v2.6.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "SolipsisCon",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-Con-v1.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "SolipsisMM",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/SolipsisMM.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis__595c86",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-v2.4.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis__acf956",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-v2.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Solipsis__c6f872",
+   "source": "werkkrew_freqtrade-strategies/strategies/archived/Solipsis-v1.py",
+   "reason": "needs custom_indicators"
+  },
+  {
+   "strategy": "Uptrend",
+   "source": "keithorange_HUGE_FreqTrade_Strategy_Collection/Uptrend.py",
+   "reason": "risky code: eval, remove"
+  }
+ ]
+}
