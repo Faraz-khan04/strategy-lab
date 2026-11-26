@@ -13,4 +13,5 @@ MIN_TRADES = 30                                     # fewer trades than this in 
 TOP_PICKS = 20                                      # how many selection-period leaders we follow into confirmation
 DSR_PASS = 0.95                                     # deflated Sharpe probability needed to count as "beyond luck"
 BACKTEST_TIMEOUT = 20 * 60                          # seconds per strategy per period
+MEMORY_LIMIT_GB = 9                                 # per backtest; a runaway strategy fails alone instead of killing the machine
 EXCHANGE_FOR_MARKETS = "okx"                        # only supplies pair metadata; prices come from Binance archives

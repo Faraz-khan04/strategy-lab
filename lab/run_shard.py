@@ -9,7 +9,14 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
-from .settings import BACKTEST_TIMEOUT, FEE, PERIODS
+import resource
+
+from .settings import BACKTEST_TIMEOUT, FEE, MEMORY_LIMIT_GB, PERIODS
+
+
+def _cap_memory():
+    lim = MEMORY_LIMIT_GB * 1024 ** 3
+    resource.setrlimit(resource.RLIMIT_AS, (lim, lim))
 
 
 def compact(stats, strategy):
@@ -36,11 +43,13 @@ def run_one(strategy, period, timerange, cfg, pool, tmp):
            "--cache", "none"]
     t0 = time.time()
     try:
-        p = subprocess.run(cmd, capture_output=True, text=True, timeout=BACKTEST_TIMEOUT)
+        p = subprocess.run(cmd, capture_output=True, text=True, timeout=BACKTEST_TIMEOUT, preexec_fn=_cap_memory)
     except subprocess.TimeoutExpired:
         return {"error": "timeout", "secs": BACKTEST_TIMEOUT}
     secs = round(time.time() - t0, 1)
     if p.returncode != 0:
+        if "MemoryError" in p.stderr or "Cannot allocate memory" in p.stderr or p.returncode in (-9, 137):
+            return {"error": f"memory: needed more than {MEMORY_LIMIT_GB} GB", "secs": secs}
         err = [l for l in (p.stderr + p.stdout).splitlines() if "Error" in l or "Exception" in l or "error" in l]
         return {"error": (err[-1] if err else (p.stderr or p.stdout)[-300:])[-400:], "secs": secs}
     try:
