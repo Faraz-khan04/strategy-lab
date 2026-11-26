@@ -1,0 +1,31 @@
+# One-off: which exchange data endpoints can GitHub's runners reach?
+name: probe
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reachability
+        run: |
+          python3 - <<'PY'
+          import urllib.request
+          urls = {
+            "binance api": "https://api.binance.com/api/v3/ping",
+            "binance data.vision": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2024-01.zip",
+            "binance.us": "https://api.binance.us/api/v3/ping",
+            "bybit": "https://api.bybit.com/v5/market/time",
+            "okx": "https://www.okx.com/api/v5/public/time",
+            "kucoin": "https://api.kucoin.com/api/v1/timestamp",
+            "gate": "https://api.gateio.ws/api/v4/spot/time",
+            "kraken": "https://api.kraken.com/0/public/Time",
+            "bitget": "https://api.bitget.com/api/v2/public/time",
+          }
+          for k, u in urls.items():
+              try:
+                  r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "strategy-lab"}), timeout=15)
+                  print(f"{k:22s} OK {r.status} {len(r.read())} bytes")
+              except Exception as e:
+                  print(f"{k:22s} FAIL {str(e)[:80]}")
+          PY
