@@ -13,7 +13,7 @@ def main(targets, cfg, pool, out):
     res = {}
     for name in json.load(open(targets)):
         csv_path = Path(f"/tmp/la_{name}.csv")
-        cmd = ["freqtrade", "lookahead-analysis", "-c", cfg, "--strategy", name, "--strategy-path", pool,
+        cmd = [sys.executable, "-m", "lab.ft_run", "lookahead-analysis", "-c", cfg, "--strategy", name, "--strategy-path", pool,
                "--timerange", TIMERANGE, "--lookahead-analysis-exportfilename", str(csv_path)]
         try:
             subprocess.run(cmd, capture_output=True, text=True, timeout=1800)

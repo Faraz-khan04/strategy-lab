@@ -2,9 +2,13 @@
 vet the code without running it, and drop what is risky or needs a package we don't install.
 Usage: python -m lab.prepare <workdir>   -> <workdir>/pool/*.py, <workdir>/candidates.json"""
 import json
+import re
 import subprocess
 
 from .compat import patch
+from .settings import MODE, SOURCES_FILE
+
+SHORTS = re.compile(r"can_short\s*(?::\s*bool)?\s*=\s*True")
 import sys
 from pathlib import Path
 
@@ -19,7 +23,7 @@ def main(work):
     work = Path(work)
     src = work / "sources"
     src.mkdir(parents=True, exist_ok=True)
-    for line in Path("sources.txt").read_text().splitlines():
+    for line in Path(SOURCES_FILE).read_text().splitlines():
         if not line.strip() or line.startswith("#"):
             continue
         url, sha = line.split()
@@ -37,7 +41,13 @@ def main(work):
     keep, dropped = [], []
     for r in vet:
         why = None
-        if r["risky"]:
+        code = (pool / f"{r['strategy']}.py").read_text(encoding="utf-8", errors="replace")
+        if MODE == "futures" and not SHORTS.search(code):
+            (pool / f"{r['strategy']}.py").unlink()      # long-only: not part of the futures test
+            continue
+        if "freqai" in code.lower():
+            why = "needs FreqAI (machine-learning training)"
+        elif r["risky"]:
             why = "risky code: " + ", ".join(r["risky"])
         elif set(r["extra_packages"]) - INSTALLABLE:
             why = "needs " + ", ".join(sorted(set(r["extra_packages"]) - INSTALLABLE))

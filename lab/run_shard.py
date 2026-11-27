@@ -26,7 +26,8 @@ def compact(stats, strategy):
         daily[str(t["close_date"])[:10]] += float(t["profit_abs"])
     keys = ["total_trades", "profit_total", "profit_total_abs", "wins", "losses", "max_drawdown_account",
             "sharpe", "sortino", "calmar", "profit_factor", "market_change", "holding_avg", "timeframe",
-            "backtest_start", "backtest_end", "stoploss", "trailing_stop"]
+            "backtest_start", "backtest_end", "stoploss", "trailing_stop",
+            "trade_count_long", "trade_count_short", "profit_total_long", "profit_total_short"]
     out = {k: s.get(k) for k in keys}
     out["exit_reasons"] = {r.get("key", r.get("exit_reason")): r.get("trades") for r in s.get("exit_reason_summary", [])}
     out["daily_pnl"] = dict(sorted(daily.items()))
@@ -38,7 +39,7 @@ def run_one(strategy, period, timerange, cfg, pool, tmp):
     d = tmp / f"{strategy}_{period}"
     shutil.rmtree(d, ignore_errors=True)
     d.mkdir(parents=True)
-    cmd = ["freqtrade", "backtesting", "-c", cfg, "--strategy", strategy, "--strategy-path", pool,
+    cmd = [sys.executable, "-m", "lab.ft_run", "backtesting", "-c", cfg, "--strategy", strategy, "--strategy-path", pool,
            "--timerange", timerange, "--fee", str(FEE), "--export", "trades", "--export-directory", str(d),
            "--cache", "none"]
     t0 = time.time()

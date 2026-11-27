@@ -1,0 +1,20 @@
+# repo  commit  (futures test: pinned so every run tests exactly the same code; only strategies with can_short = True are used)
+https://github.com/freqtrade/freqtrade-strategies f3340ce11f5bdf62f598522e64d1f5638eaa13f5
+https://github.com/davidzr/freqtrade-strategies 9623c1f3d8c7f60c8b411010fa26377e6ca99ab9
+https://github.com/paulcpk/freqtrade-strategies-that-work 1e154a2f6b9aeecbaacb7db5ed6b866603daee2c
+https://github.com/keithorange/HUGE_FreqTrade_Strategy_Collection 0bd980ffe4f09063256a1df3d9c1250b2acda1a7
+https://github.com/werkkrew/freqtrade-strategies 582e9649a88623b6f85f03a63bfa68410cd8ad8a
+https://github.com/i1ya/freqtrade-strategies 4bf648ce0251225ba2237e343ba3f692b761f964
+https://github.com/iterativv/NostalgiaForInfinity ffdca744f41753345e4a2ea56a4af63287a1c777
+https://github.com/MurphyHoops/freqtradeOne d8fe9999ddf54b30b8fd8e9a6e16237f6a583920
+https://github.com/NTZ12345678/freqtrade_chinese_discord 9304fd5d030814c77c56c18599de0485ade86b65
+https://github.com/RoboticAutomations/freqtradestrategies 52c4bd40414645f079a980cf4486dc7af4061efb
+https://github.com/TheoBrigitte/freqtrade c9def379b1036064d592c3a0518a07811f5a9a76
+https://github.com/boxchang/strategy 7cc7d4757090d6cb6b75a21ed4e2973842d14a84
+https://github.com/bustillo/freqtrade-strategies 4734aa619a460347f22607de9e3018ec24a7890d
+https://github.com/kemplail/freqtrade-stuff 8850ff0afbd0beb737b83bebe15dbbb594e529f9
+https://github.com/king-No/fvg-trading-strategy 6d88394c96aa5430454ab2b4b1ae0337641816aa
+https://github.com/remiotore/ccxt-freqtrade 4586a4c30611106117494c6518bca1840047f818
+https://github.com/ssssi/freqtrade_strs 3ed699f6773bd3db4526eb31bd6d459b95fd2bc2
+https://github.com/typhonun/DcaTpStrategy 057525d1db7e665da1122809889fb38144460d88
+https://github.com/vaskosmihaylov/nfi-custom-strategies ab8af7807cfdb0ff36bd994cf36ca4465d558ac6

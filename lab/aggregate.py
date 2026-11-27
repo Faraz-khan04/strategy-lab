@@ -8,7 +8,7 @@ import statistics as st
 import sys
 from pathlib import Path
 
-from .settings import DSR_PASS, FEE, MAX_OPEN, MIN_TRADES, PAIRS, PERIODS, QUOTE, STAKE, TOP_PICKS, WALLET
+from .settings import DSR_PASS, FEE, LEVERAGE, MAX_OPEN, MIN_TRADES, MODE, PAIRS, PERIODS, QUOTE, STAKE, TOP_PICKS, WALLET
 
 N01 = st.NormalDist()
 EULER = 0.5772156649
@@ -66,7 +66,9 @@ def buy_and_hold(datadir, tr):
     t0, t1 = pd.Timestamp(a, tz="UTC"), pd.Timestamp(b, tz="UTC") - pd.Timedelta(days=1)
     out = {}
     for p in PAIRS:
-        df = pd.read_feather(Path(datadir) / f"{p}_{QUOTE}-1d.feather").set_index("date")["close"]
+        f = (Path(datadir) / "futures" / f"{p}_{QUOTE}_{QUOTE}-1d-futures.feather") if MODE == "futures" \
+            else Path(datadir) / f"{p}_{QUOTE}-1d.feather"
+        df = pd.read_feather(f).set_index("date")["close"]
         out[p] = float(df.asof(t1) / df.asof(t0) - 1)
     return st.fmean(out.values()), out
 
@@ -93,6 +95,11 @@ def main(results_dir, work, datadir, lookahead=None):
             row[f"{per}_trades"] = r["total_trades"]
             row[f"{per}_return"] = r["profit_total"]
             row[f"{per}_maxdd"] = r["max_drawdown_account"]
+            if MODE == "futures":
+                row[f"{per}_short_trades"] = r.get("trade_count_short") or 0
+                row[f"{per}_ret_long"] = r.get("profit_total_long") or 0.0
+                row[f"{per}_ret_short"] = r.get("profit_total_short") or 0.0
+                row[f"{per}_liquidations"] = (r.get("exit_reasons") or {}).get("liquidation", 0) or 0
             ds = daily_stats(r, tr) if r["total_trades"] else None
             if ds:
                 row.update({f"{per}_{k}": v for k, v in ds.items()})
@@ -124,11 +131,15 @@ def main(results_dir, work, datadir, lookahead=None):
         v = [r[f"{per}_return"] for r in rs if f"{per}_return" in r]
         return (sum(x > 0 for x in v) / len(v), st.median(v)) if v else (None, None)
 
-    L = ["# Strategy lab — every public Freqtrade strategy, one honest test", "",
+    title = "every public Freqtrade strategy" if MODE == "spot" else "every public Freqtrade strategy that can short (USDT-M futures)"
+    L = [f"# Strategy lab — {title}, one honest test", "",
          f"_Generated {dt.datetime.now(dt.UTC):%Y-%m-%d %H:%M} UTC._", "",
          "## The test", "",
-         f"- {len(PAIRS)} coins vs {QUOTE} ({', '.join(PAIRS)}), Binance spot candles from data.binance.vision.",
-         f"- Fees {FEE:.1%} per side, ${STAKE:,} per trade, at most {MAX_OPEN} open trades, ${WALLET:,} wallet. Each strategy keeps its own timeframe, ROI table and stoploss.",
+         f"- {len(PAIRS)} coins vs {QUOTE} ({', '.join(PAIRS)}), Binance {'spot' if MODE == 'spot' else 'USDT-M perpetual futures'} candles from data.binance.vision"
+         + (", with Binance's real historical funding rates and mark prices." if MODE == "futures" else "."),
+         f"- Fees {FEE:.2%} per side, ${STAKE:,} per trade, at most {MAX_OPEN} open trades, ${WALLET:,} wallet. Each strategy keeps its own timeframe, ROI table and stoploss.",
+         *([f"- **Leverage forced to {LEVERAGE:g}x** for every strategy (isolated margin), whatever its author set, so the signals are judged rather than the leverage. "
+            "Only strategies that can open shorts are tested."] if MODE == "futures" else []),
          f"- **Selection period** {PERIODS['select']} — the leaders are picked here. **Confirmation period** {PERIODS['confirm']} — they have to hold up here.",
          f"- A strategy needs ≥{MIN_TRADES} trades in a period to be judged. These rules were fixed before any result was seen.", "",
          "## Funnel", "",
@@ -145,6 +156,16 @@ def main(results_dir, work, datadir, lookahead=None):
          "| period | buy & hold, 10 coins equal weight | BTC |", "|---|---|---|"]
     for per in PERIODS:
         L.append(f"| {per} | {pct(bh[per][0])} | {pct(bh[per][1]['BTC'])} |")
+    if MODE == "futures":
+        def agg(rs, per, k):
+            v = [r.get(f"{per}_{k}", 0) for r in rs if f"{per}_return" in r]
+            return v
+        L += ["", "## Longs vs shorts (all strategies with ≥30 trades)", "",
+              "| period | median return from longs | median return from shorts | strategies with a liquidation |", "|---|---|---|---|"]
+        for per, pool_ in (("select", sel), ("confirm", both)):
+            lo, sh, lq = agg(pool_, per, "ret_long"), agg(pool_, per, "ret_short"), agg(pool_, per, "liquidations")
+            if lo:
+                L.append(f"| {per} | {pct(st.median(lo))} | {pct(st.median(sh))} | {sum(1 for x in lq if x)} |")
     p_sel, m_sel = prof(sel, "select")
     p_both, m_both = prof(both, "confirm")
     L += ["", "## The whole field", "",
@@ -155,10 +176,13 @@ def main(results_dir, work, datadir, lookahead=None):
           f"- Luck bar: with {len(sel)} strategies and no skill at all, the best daily Sharpe expected by chance is {sr0:.3f} "
           f"(≈{sr0 * math.sqrt(365):.2f} annualised). **{len(dsr_pass)}** strategies cleared it with ≥{DSR_PASS:.0%} confidence.", "",
           f"## The top {TOP_PICKS} of the selection period, followed into confirmation", "",
-          "| strategy | source | select return | select Sharpe (ann.) | beyond luck | confirm trades | confirm return | confirm Sharpe | look-ahead |",
-          "|---|---|---|---|---|---|---|---|---|"]
+          "| strategy | source | select return | select Sharpe (ann.) | beyond luck | confirm trades | confirm return | confirm Sharpe | look-ahead |"
+          + (" confirm: longs / shorts |" if MODE == "futures" else ""),
+          "|---|---|---|---|---|---|---|---|---|" + ("---|" if MODE == "futures" else "")]
     for r in picks:
         lk = la.get(r["strategy"], "—")
+        if MODE == "futures":
+            lk += f" | {pct(r.get('confirm_ret_long'))} / {pct(r.get('confirm_ret_short'))}"
         r["source"] = r["source"].replace("_freqtrade-strategies", "").replace("_HUGE_FreqTrade_Strategy_Collection", "")
         L.append(f"| {r['strategy']} | {r['source']} | {pct(r['select_return'])} | {r['select_sr_ann']:.2f} | {r['select_dsr']:.0%} | "
                  f"{r.get('confirm_trades', '—')} | {pct(r.get('confirm_return'))} | "
@@ -196,7 +220,9 @@ def main(results_dir, work, datadir, lookahead=None):
         err_kinds[k] = err_kinds.get(k, 0) + 1
     L += ["## Backtest failures", "", "| reason | strategies |", "|---|---|"] + \
          [f"| {k} | {v} |" for k, v in sorted(err_kinds.items(), key=lambda x: -x[1])[:12]]
-    L += ["", "Research only, not financial advice. Third-party strategies were run unmodified; sources and commits are in sources.txt."]
+    L += ["", "Research only, not financial advice. Third-party strategies were run unmodified; sources and commits are in " + ("sources.txt." if MODE == "spot" else "sources_futures.txt.")]
+    if MODE == "futures":
+        L.insert(len(L) - 1, "Futures add liquidation risk and funding costs on top of everything above; leverage above 1x multiplies both gains and losses.\n")
     Path("report.md").write_text("\n".join(l for l in L if l is not None), encoding="utf-8")
     cols = sorted({k for r in rows for k in r if k not in ("strategy", "source")})
     with open("results.csv", "w", newline="") as f:

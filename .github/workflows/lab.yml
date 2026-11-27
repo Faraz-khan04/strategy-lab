@@ -10,10 +10,16 @@ on:
       shards:
         description: "Parallel machines"
         default: "25"
+      mode:
+        description: "spot or futures"
+        default: "spot"
+        type: choice
+        options: [spot, futures]
 permissions:
   contents: read
 env:
   DATADIR: user_data/data/okx
+  LAB_MODE: ${{ inputs.mode }}
 jobs:
   prepare:
     runs-on: ubuntu-latest
@@ -29,7 +35,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ env.DATADIR }}
-          key: data-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
+          key: data-${{ inputs.mode }}-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
       - if: steps.data.outputs.cache-hit != 'true'
         run: python -m lab.get_data $DATADIR
       - run: python -m lab.prepare work
@@ -68,7 +74,7 @@ jobs:
       - uses: actions/cache/restore@v4
         with:
           path: ${{ env.DATADIR }}
-          key: data-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
+          key: data-${{ inputs.mode }}-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
           fail-on-cache-miss: true
       - uses: actions/download-artifact@v4
         with: { name: work, path: work }
@@ -90,7 +96,7 @@ jobs:
       - uses: actions/cache/restore@v4
         with:
           path: ${{ env.DATADIR }}
-          key: data-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
+          key: data-${{ inputs.mode }}-${{ hashFiles('lab/settings.py', 'lab/get_data.py') }}
           fail-on-cache-miss: true
       - uses: actions/download-artifact@v4
         with: { name: work, path: work }
@@ -116,7 +122,8 @@ jobs:
       - name: Push the report to the results branch
         run: |
           cd out
-          git init -q -b results
+          BRANCH=results${{ inputs.mode == 'futures' && '-futures' || '' }}
+          git init -q -b "$BRANCH" 2>/dev/null || git checkout -q -b "$BRANCH"
           git add -A
-          git -c user.name="strategy-lab-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "results ${{ github.run_id }}"
-          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" results
+          git -c user.name="strategy-lab-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "results ${{ inputs.mode }} ${{ github.run_id }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "$BRANCH"
