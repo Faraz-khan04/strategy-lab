@@ -15,8 +15,8 @@ def config(datadir):
                      "pair_whitelist": [f"{p}/{QUOTE}" + (f":{QUOTE}" if MODE == "futures" else "") for p in PAIRS],
                      "pair_blacklist": []},
         "pairlists": [{"method": "StaticPairList"}],
-        "entry_pricing": {"price_side": "same", "use_order_book": False, "price_last_balance": 0.0},
-        "exit_pricing": {"price_side": "same", "use_order_book": False},
+        "entry_pricing": {"price_side": "other", "use_order_book": False, "price_last_balance": 0.0},
+        "exit_pricing": {"price_side": "other", "use_order_book": False},
         "datadir": datadir, "dataformat_ohlcv": "feather",
         "internals": {"process_throttle_secs": 5},
     }
