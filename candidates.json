@@ -1,0 +1,3215 @@
+{
+ "keep": [
+  {
+   "strategy": "ADX_PRICE_WTDCA_Strategy_Future",
+   "source": "remiotore_ccxt-freqtrade/strategies/ADX_PRICE_WTDCA_Strategy_Future.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ARIMA_5_N",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/arima-statistical/ARIMA_5_N.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdvancedFuturesSwingStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/AdvancedFuturesSwingStrategy/AdvancedFuturesSwingStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdvancedMultiIndicatorStrategy2",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdvancedMultiIndicatorStrategy2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdvancedScalpingStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdvancedScalpingStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasSCSL",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasSCSL.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasS_v2",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasS_v2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasS_v3",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasS_v3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasS_v4",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasS_v4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasS_v5",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasS_v5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasS_v6",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasS_v6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasS_v7",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasS_v7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AdxSmasS_v7_long_and_short",
+   "source": "remiotore_ccxt-freqtrade/strategies/AdxSmasS_v7_long_and_short.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlexBandSniperV4",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/pivot-supertrend/AlexBandSniperV4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlexBandSniperV4__a7add9",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/pivot-supertrend/AlexBandSniperV4Optimize.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlexBandSniperV5",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/pivot-supertrend/AlexBandSniperV5.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x1"
+   ]
+  },
+  {
+   "strategy": "AlexBandSniperV65513",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/pivot-supertrend/AlexBandSniperV6553.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlexBattleTankKillerV4",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/battle-tank/AlexBattleTankKillerV48.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlexBattleTankKillerV4__d1a59f",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/AlexNexus/AlexBattleTankKillerV48.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlexNexusForgeV7",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/murrey-gann/AlexNexusForgeV7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Alex_DivergenceV6",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/pivot-supertrend/AlexDivergenceV6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Alex_DivergenceV6__e13740",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/pivot-supertrend/AlexDivergenceV6__2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AllCandlestickPatternsStrategyHyperoptv7",
+   "source": "remiotore_ccxt-freqtrade/strategies/AllCandlestickPatternsStrategyHyperoptv7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlmgrenChrissStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/AlmgrenChrissStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlphaMomentumStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/AlphaMomentumStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AlphaTrend",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_AlphaTrend.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Apoxkurd_1",
+   "source": "remiotore_ccxt-freqtrade/strategies/ApoxKurd_5x.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Aquma7",
+   "source": "remiotore_ccxt-freqtrade/strategies/Aquma7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Auto_EI_t4c0s_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/El/Auto_EI_t4c0s_Shorts.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AwesomeEWOLambo_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/AwesomeEWOLambo/AwesomeEWOLambo_Shorts.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "AwesomeStrategy20240418",
+   "source": "remiotore_ccxt-freqtrade/strategies/AwesomeStrategy20240418.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BNBArbitrage",
+   "source": "remiotore_ccxt-freqtrade/strategies/BNBArbitrage.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Best5m",
+   "source": "remiotore_ccxt-freqtrade/strategies/Best5m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BestProfitable5MinStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/BestProfitable5MinStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27CombinedStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/LS.py",
+   "legacy_api": true,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27JP",
+   "source": "remiotore_ccxt-freqtrade/strategies/BinHV27JP.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27_combined",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/BinClucMadV1/Discord_BinHV27_combined.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27_short",
+   "source": "remiotore_ccxt-freqtrade/strategies/BinHV27_short.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27_short_10",
+   "source": "remiotore_ccxt-freqtrade/strategies/BinHV27_short_10.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "BinHV27_short_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/BinHV27_short_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BinHV27_short_7",
+   "source": "remiotore_ccxt-freqtrade/strategies/BinHV27_short_7.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Bins",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/BinClucMadV1/Bins.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Boll",
+   "source": "remiotore_ccxt-freqtrade/strategies/BBV1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BollingerMACD_Reverse_signal",
+   "source": "remiotore_ccxt-freqtrade/strategies/reverse_signal.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BollingerMACD_V1",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/BollingerMACD_V1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BollingerMACD_V2",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/BollingerMACD_V2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BollingerMACD_V3",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/BollingerMACD_V3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BoomBasticStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/boombasticstrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BoomBasticStrategyV2",
+   "source": "remiotore_ccxt-freqtrade/strategies/boombasticstrategyV2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "BreakoutFlash",
+   "source": "remiotore_ccxt-freqtrade/strategies/BreakoutFlash.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CDCActionZone",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_CDCActionZone.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_hhll_Futures_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/ClucHAnix_hhll_Futures_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ClucHAnix_hhll_Futures_2_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/ClucHAnix_hhll_Futures_2_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedBinHClucAndMADV9__cf34ea",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Cluc/CombinedBinHClucAndMADV9.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CombinedStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/CombinedStrategy_20250110_5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CompleteIndicatorStrategy2",
+   "source": "remiotore_ccxt-freqtrade/strategies/CompleteIndicatorStrategy22.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CompleteIndicatorStrategy2__278e82",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Best5m/CompleteIndicatorStrategy22.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsecutiveDipFuturesStrategyFutures",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsecutiveDipFuturesStrategyFutures_20250115.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsecutiveDipFuturesStrategyFutures__2fa653",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsecutiveDipFuturesStrategyFutures_20250115_5m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsecutiveDipFuturesStrategyFutures__4ffdba",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsecutiveDipFuturesStrategyFutures_20250115_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsecutiveDipFuturesStrategyFutures__8ca224",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsecutiveDipFuturesStrategyFutures_20250115_15m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsecutiveDipFuturesStrategyFutures__9cd652",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsecutiveDipFuturesStrategyFutures_20250115_5m_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsensusShort",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsensusShort.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsensusShort_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsensusShort_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ConsensusShort_3",
+   "source": "remiotore_ccxt-freqtrade/strategies/ConsensusShort_3.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Conviction_Adaptive_Scalper",
+   "source": "remiotore_ccxt-freqtrade/strategies/HFT_Futures_Scalper.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CrazyThursdayJP",
+   "source": "remiotore_ccxt-freqtrade/strategies/CrazyThursdayJP.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CrazyThursdayJP1h",
+   "source": "remiotore_ccxt-freqtrade/strategies/CrazyThursdayJP1h.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CrazyThursdayJP30m",
+   "source": "remiotore_ccxt-freqtrade/strategies/CrazyThursdayJP30m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CryptoFuturesStrategy__f264a9",
+   "source": "remiotore_ccxt-freqtrade/strategies/Deepseekstrategy_v2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CusTrend_coralTrend_Adx_EMA_Oct_1h",
+   "source": "remiotore_ccxt-freqtrade/strategies/CusTrend_coralTrend_Adx_EMA_Oct_1h.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CustomStrategy__db74be",
+   "source": "remiotore_ccxt-freqtrade/strategies/CustomStrategyMBEFutures.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "CustomStrategy__f8dbeb",
+   "source": "remiotore_ccxt-freqtrade/strategies/myshortingstrategiembe.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Darq",
+   "source": "remiotore_ccxt-freqtrade/strategies/Darq.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DarqV2",
+   "source": "remiotore_ccxt-freqtrade/strategies/DarqV2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DcaTpShort",
+   "source": "typhonun_DcaTpStrategy/user_data/strategies/DcaTpShort.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DcaTpShort_3",
+   "source": "remiotore_ccxt-freqtrade/strategies/DcaTpShort_3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DevDsl2Approx",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/DevDsl2Approx/DevDsl2Approx.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "DivergenceStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/DivergenceStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Do",
+   "source": "remiotore_ccxt-freqtrade/strategies/Do.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "E0V1EFt",
+   "source": "remiotore_ccxt-freqtrade/strategies/E0V1EFt.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "E0V1E_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/e0v1e/E0V1E_Shorts.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ECRV2",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/bollinger/ECRV2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ECRV3",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/bollinger/ECRV3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ECRV32",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/bollinger/ECRV32.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EDTMA_Long_Short_prot_CE_1h_3Lev_3mt_March",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Picasso/EDTMA_long_short_prot_CE_1h_3Lev_3mt_March.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EI3v2_tag_cofi_green_Future_Long",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/elliott-wave/EI3v2_tag_cofi_green_Future_Long.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EI3v2_tag_cofi_green_Future_Long_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/EI3v2_tag_cofi_green_Future_Long_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EI3v2_tag_cofi_green_Future_Long_3",
+   "source": "remiotore_ccxt-freqtrade/strategies/EI3v2_tag_cofi_green_Future_Long_3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EI3v2_tag_cofi_green_Future_Short",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/elliott-wave/EI3v2_tag_cofi_green_Future_Short.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EI4_t4c0s_V2_2_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/El/EI4_t4c0s_V2_2_Shorts.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMA_Fibbonaci",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/EMA_Fibbonaci.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMA_Fibonacci_V2",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/EMA_Fibonacci_V2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMA_Fibonacci_V3",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/EMA_Fibonacci_V3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EMA_Fibonacci_V4",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/EMA_Fibonacci_V4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ETCG_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/ETCG/Etcg_Shorts.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EWOistV1",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/EWOistV1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV8_IF3_futlo",
+   "source": "remiotore_ccxt-freqtrade/strategies/ElliotV8_IF3_futlo.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV8_IF3_futlo_02",
+   "source": "remiotore_ccxt-freqtrade/strategies/ElliotV8_IF3_futlo_02.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ElliotV8_IF3_futlo_03",
+   "source": "remiotore_ccxt-freqtrade/strategies/ElliotV8_IF3_futlo_03.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EmaClose",
+   "source": "remiotore_ccxt-freqtrade/strategies/EmaClose.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EmaRsiStrategy",
+   "source": "boxchang_strategy/user_data/strategies/EmaRsiStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "EnhancedCandlestickStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/EnhancedCandlestickStrategy_20250117.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FAdxSmaStrategy",
+   "source": "boxchang_strategy/user_data/strategies/FAdxSmaStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FFTAdaptiveCycle",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/FFT_AdaptiveCycle_v1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FRandomWalk",
+   "source": "remiotore_ccxt-freqtrade/strategies/F_RandomWalk.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FReinforcedStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/futures/FReinforcedStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FSampleStrategy",
+   "source": "boxchang_strategy/user_data/strategies/FSampleStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FSampleStrategyChat",
+   "source": "remiotore_ccxt-freqtrade/strategies/FSampleStrategyChat.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FSampleStrategy_1",
+   "source": "remiotore_ccxt-freqtrade/strategies/FSampleStrategy_1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FSupertrendStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/FSupertrendStrategy319.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FSupertrendStrategy__6bf323",
+   "source": "remiotore_ccxt-freqtrade/strategies/F_FSupertrendStrategy_5m.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FSupertrendStrategy__8ee281",
+   "source": "remiotore_ccxt-freqtrade/strategies/F_FSupertrendStrategy_15m.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FSupertrendStrategy__aea26f",
+   "source": "remiotore_ccxt-freqtrade/strategies/FSupertrendStrategy_test.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FSupertrendStrategy__d09c36",
+   "source": "boxchang_strategy/user_data/strategies/FSupertrendStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FTPv5",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/ichimoku/FTPv5_20250630_opt_btc_bnb.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FUTURES",
+   "source": "kemplail_freqtrade-stuff/strategies/testStrat.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FVGAdvancedStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/smart-money-concepts/FVGAdvancedStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FVGAdvancedStrategy_V2",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/smart-money-concepts/FVGAdvancedStrategy_V2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FVGAdvancedStrategy_V2__b287d0",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/smart-money-concepts/FVGAdvancedStrategy_V3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FastSupertrend_optim3",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_70",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_70.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_70__dd3502",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/fastsupertrend/FastSupertrend_optim3_rsi_70.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_75",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_75.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_752",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_752.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_75fix",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_75fix.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_75fix_signal",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_75fix_signal.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_75lev",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_75lev.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_75sell",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_75sell.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim3_rsi_80",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim3_rsi_80.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim_quick",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim_quick.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim_quick2",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim_quick2.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim_quick3",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim_quick3.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim_quick3__6e89a9",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/fastsupertrend/FastSupertrend_optim_quick3.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim_quick4",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim_quick4.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_optim_quick5",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_optim_quick5.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "FastSupertrend_ts_origstop_fix",
+   "source": "TheoBrigitte_freqtrade/strategies/fastsupertrend/FastSupertrend_ts_origstop_fix.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "Fengzi_v1",
+   "source": "remiotore_ccxt-freqtrade/strategies/Fengzi_v1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FenixTopProfit",
+   "source": "remiotore_ccxt-freqtrade/strategies/FenixTopProfit.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FiboSmaEmaRsi",
+   "source": "remiotore_ccxt-freqtrade/strategies/FiboSmaEmaRsi.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FibonacciEMATrendStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Fibbo/FibonacciEMATrendStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Flow",
+   "source": "remiotore_ccxt-freqtrade/strategies/flow.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Freq_F_3_6",
+   "source": "boxchang_strategy/user_data/strategies/Freq_F_3_6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Futures10PercentStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/Futures10PercentStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FuturesStrat8",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_FuturesStrat8.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "FuturesStrategy1",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_1_FuturesStrategy1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GEAR",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/cycle-oscillators/GEAR.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GGShotStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/GGShotStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GKD_FisherTransformV4",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/gkd/GKD_FisherTransformV4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GnF",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/GnF.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GnF_V2",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/GnF_V2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GnF_V2__5a215f",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/moving-average/GnF_V2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "GnF__180b00",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/moving-average/GnF.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HA",
+   "source": "remiotore_ccxt-freqtrade/strategies/HA.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HMMRegimeStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/bollinger/HMMDR.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HedgeStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/hedgestrat.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HighLeverageTrendFollowing",
+   "source": "remiotore_ccxt-freqtrade/strategies/HighLeverageTrendFollowing.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HighRsiShortDcaStrategy",
+   "source": "boxchang_strategy/user_data/strategies/HighRsiShortDcaStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "HurstCycleV5",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-repo/hurst-cycle/HurstCycleV5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "I_DONT_WANT_TO_WORK_FINAL",
+   "source": "remiotore_ccxt-freqtrade/strategies/I_DONT_WANT_TO_WORK_FINAL.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "IchiVSOptimized",
+   "source": "remiotore_ccxt-freqtrade/strategies/IchiVSOptimized.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "IchiVSOptimized__5213bd",
+   "source": "remiotore_ccxt-freqtrade/strategies/IchiVSOptimized_20250221_1108.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "IchiVwapAdx",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-repo/ichimoku/IchiVwapAdx.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "IchiVwapAdx__869198",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-repo/ichimoku/IchiVwapAdx__2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "IchimokuCloudBreakoutStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/ichiv1_plus/IchimokuCloudBreakoutStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ImpulseMACD",
+   "source": "remiotore_ccxt-freqtrade/strategies/ImpulseMACD.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "InnovativeReversalStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/InnovativeReversalStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Insomnia_short",
+   "source": "TheoBrigitte_freqtrade/strategies/insomnia/Insomnia_short.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x4"
+   ]
+  },
+  {
+   "strategy": "KC_NOBB",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/channels/KC_NOBB.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Kj73",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_Kj73.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LSV1",
+   "source": "remiotore_ccxt-freqtrade/strategies/LSV1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LSV2",
+   "source": "remiotore_ccxt-freqtrade/strategies/LSV2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LSv3",
+   "source": "remiotore_ccxt-freqtrade/strategies/LSv3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LSv3_Full",
+   "source": "remiotore_ccxt-freqtrade/strategies/LSv3_F.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LetsWinStratv3",
+   "source": "remiotore_ccxt-freqtrade/strategies/LetsWinStratv3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LightningScalper",
+   "source": "remiotore_ccxt-freqtrade/strategies/LightningScalper.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LongStrat2h",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/moving-average/LongStrat2h.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LongStrat2h__1aec15",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/moving-average/LongStrat2h_Long_Short.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LowRSIStrategy",
+   "source": "boxchang_strategy/user_data/strategies/LowRSIStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "LucyStrategy",
+   "source": "boxchang_strategy/user_data/strategies/LucyStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MA",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_MA.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MACDSMA200hyperopt2",
+   "source": "remiotore_ccxt-freqtrade/strategies/MACDSMA200hyperopt2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MCMC_Markov_V1",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/arima-statistical/MCMC.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MD_SL",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u9a6c\u4e01/MD_SL.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MD_SL__344e94",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u9a6c\u4e01/MD_SL_20251125.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MKV3",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/MKV3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MQALYY",
+   "source": "remiotore_ccxt-freqtrade/strategies/MQALYY.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MSlopeV8",
+   "source": "remiotore_ccxt-freqtrade/strategies/MSlopeV8.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MarketModeStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/MarketModeStratrgy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MarketModeStrategy__0f16ef",
+   "source": "remiotore_ccxt-freqtrade/strategies/MarketTrendStratrgy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Mimic_F",
+   "source": "remiotore_ccxt-freqtrade/strategies/Mimic_F.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MoMy5",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/moving-average/MoMy5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MoMy6",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/moving-average/MoMy6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MomentumCCITrendStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/MomentumCCITrendStrategy/MomentumCCITrendStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Money",
+   "source": "remiotore_ccxt-freqtrade/strategies/Money.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Money_m5",
+   "source": "remiotore_ccxt-freqtrade/strategies/Money_m5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MovingGridStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/MovingGridStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "MultiMA_TSL_461__24db25",
+   "source": "remiotore_ccxt-freqtrade/strategies/MultiMA_TSL_461_20250527_0918.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "MultiTimeframeStrategy_v1",
+   "source": "remiotore_ccxt-freqtrade/strategies/MultiTimeframeStrategy_v1.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x4"
+   ]
+  },
+  {
+   "strategy": "MultiVARDivergence",
+   "source": "remiotore_ccxt-freqtrade/strategies/MultiVARDivergence.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv4Futures",
+   "source": "remiotore_ccxt-freqtrade/strategies/NASOSv4Futures_20250131_1445.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv4_BOTH",
+   "source": "remiotore_ccxt-freqtrade/strategies/NASOSv4_BOTH.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NASOSv7LongShort__7cb2ed",
+   "source": "remiotore_ccxt-freqtrade/strategies/NASOSv7_FuturesC.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NOTankAi15",
+   "source": "remiotore_ccxt-freqtrade/strategies/NOTankAi15_20250105.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NOTankAi_15_ali",
+   "source": "TheoBrigitte_freqtrade/strategies/notankai/NOTankAi_15_ali.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NOTankAi_Futures",
+   "source": "remiotore_ccxt-freqtrade/strategies/NOTankAi_Futures.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NoTankAiV15D20241230",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/murrey-gann/NoTV15D20241230.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityNext_ChangeToTower_V6_Short",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/NostalgiaForInfinityNext_ChangeToTower/NostalgiaForInfinityNext_ChangeToTower_V6_Short.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX3",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX4",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX4_L",
+   "source": "remiotore_ccxt-freqtrade/strategies/NostalgiaForInfinityX4_L.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX4cp",
+   "source": "remiotore_ccxt-freqtrade/strategies/NostalgiaForInfinityX4cp.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX5",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX5ORIGINAL",
+   "source": "remiotore_ccxt-freqtrade/strategies/NostalgiaForInfinityX5ORIGINAL.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX5__750968",
+   "source": "remiotore_ccxt-freqtrade/strategies/nfi5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX5__781f67",
+   "source": "remiotore_ccxt-freqtrade/strategies/NostalgiaForInfinityX5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX6",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX6_Test",
+   "source": "remiotore_ccxt-freqtrade/strategies/NostalgiaForInfinityX6_Test.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX7",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX7__89578d",
+   "source": "vaskosmihaylov_nfi-custom-strategies/NostalgiaForInfinityX7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "NostalgiaForInfinityX8",
+   "source": "iterativv_NostalgiaForInfinity/NostalgiaForInfinityX8.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Nostalgia_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/Nostalgia_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ORBAlgo",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/ORB/ORBAlgo.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "OsirisXRSI",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Osiris/OsirisXRSI.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "P0_KdDcaShortStrategy",
+   "source": "boxchang_strategy/user_data/strategies/P0_KdDcaShortStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "P0_RsiDcaShortStrategy",
+   "source": "boxchang_strategy/user_data/strategies/P0_RsiDcaShortStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "POCStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/orderbook-volume/POC.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ParabolicSAR",
+   "source": "remiotore_ccxt-freqtrade/strategies/ParabolicSAR.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Pivot7",
+   "source": "remiotore_ccxt-freqtrade/strategies/Pivot7.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Pivot7Improved",
+   "source": "remiotore_ccxt-freqtrade/strategies/pivot7_improved.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x2"
+   ]
+  },
+  {
+   "strategy": "Pivot_tuned",
+   "source": "remiotore_ccxt-freqtrade/strategies/Pivot_tuned.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "PlusMinusV1",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/PlusMinusV1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "QMR",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/orderbook-volume/QMR.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "QWQ",
+   "source": "remiotore_ccxt-freqtrade/strategies/QWQ_02.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "QianLongStrategy",
+   "source": "boxchang_strategy/user_data/strategies/QianLongStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RBreakerStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/RBreaker.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "REMORABB",
+   "source": "remiotore_ccxt-freqtrade/strategies/REMORABB.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSI20LongShortTSMStrategy",
+   "source": "boxchang_strategy/user_data/strategies/RSI20LongShortTSMStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIBB_V1",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RSIBB_V1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIBB_V2",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RSIBB_V2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIBB_V3",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RSIBB_V3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIBB_V3__c35c9a",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/RSIBB_V3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIBB_V4",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RSIBB_V4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSIBB_V4__9460d7",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/RSIBB_V4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSI_Futures9",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/RSI_Futures9.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSI_Futures__6e567f",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/rsi-momentum/RSI_Futures.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RSI_Futures__bf542c",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/RSI_Futures__3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Renco1",
+   "source": "remiotore_ccxt-freqtrade/strategies/Renco1.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "RingRongv2",
+   "source": "remiotore_ccxt-freqtrade/strategies/RingRongv2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RobustZScoreHybrid",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RobustZScoreHybrid.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RsiquiV2",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RsiquiV2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RsiquiV2_protections",
+   "source": "TheoBrigitte_freqtrade/strategies/rsiqui/RsiquiV2_protections.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RsiquiV3",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RsiquiV3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RsiquiV3_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/RsiquiV3_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RsiquiV4",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RsiquiV4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RsiquiV5",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/RsiquiV5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "RsiquiV5__965f58",
+   "source": "TheoBrigitte_freqtrade/strategies/rsiqui/RsiquiV5_protections.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SL_0707",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u9a6c\u4e01/SL.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SRFuturesStrategy2",
+   "source": "remiotore_ccxt-freqtrade/strategies/SRFuturesStrategy2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ScalpingMomentsStrategyV6",
+   "source": "remiotore_ccxt-freqtrade/strategies/ScalpingMomentsStrategyV6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SimpleRSIShortStrategy",
+   "source": "boxchang_strategy/user_data/strategies/SimpleRSIShortStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SimpleRSIShortStrategy2",
+   "source": "boxchang_strategy/user_data/strategies/SimpleRSIShortStrategy2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SimpleRSIXStrategy",
+   "source": "boxchang_strategy/user_data/strategies/SimpleRSIXStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SimpleRSI_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/SimpleRSI/SimpleRSI_Shorts.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Simple_ichi",
+   "source": "remiotore_ccxt-freqtrade/strategies/simple_ichi.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlingShot1",
+   "source": "remiotore_ccxt-freqtrade/strategies/SlingShot1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlopeV1",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/SlopeV1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlopeV2",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/SlopeV2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlopeV3",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/SlopeV3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlopeV4",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/SlopeV4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlopeV5",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/SlopeV5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlopeV6",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/SlopeV6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SlopeV8",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/SlopeV8.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "StarMark5mv5_1",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/rsi-momentum/StarMark5mv5_1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SuperTrade",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/wavetrend/SuperTrade.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "SuperTrade__275fb0",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/wavetrend/SuperTrade__2.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from freqtrade\\.strategy\\.hyper import\\b x1"
+   ]
+  },
+  {
+   "strategy": "TEMA_ADX_CMO_Strategy",
+   "source": "boxchang_strategy/user_data/strategies/TEMA_ADX_CMO_Strategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TWAPStrategy",
+   "source": "freqtrade_freqtrade-strategies/user_data/strategies/TWAPStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaLevelB15m",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaLevelB15m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaLevelB5m",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaLevelB5m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelB30m",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelB30m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelC30m",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelC30m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelG15m",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelG15m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelG15mv",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelG15mv.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelH15m",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelH15m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelH15m_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelH15m_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelJ15m",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelJ15m.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TaSearchLevelJ15m__98ba3b",
+   "source": "remiotore_ccxt-freqtrade/strategies/TaSearchLevelJ15m_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Test5",
+   "source": "remiotore_ccxt-freqtrade/strategies/Test5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TestPair",
+   "source": "remiotore_ccxt-freqtrade/strategies/TestPair.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ThreeSmaCrossStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/3SmaCrossStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendAndMeanReversionFutures",
+   "source": "boxchang_strategy/user_data/strategies/TrendAndMeanReversionFutures.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendFollowingStrategy_4",
+   "source": "remiotore_ccxt-freqtrade/strategies/TrendFollowingStrategy_4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendFollowingStrategy__59a660",
+   "source": "TheoBrigitte_freqtrade/strategies/trendfollowing/TrendFollowingStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversion",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversion.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionIX",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionIX.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionL",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionL.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionLX",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionLX.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionLX2",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionLX2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionUS",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionUS.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionV2",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionV2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionV4",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionV4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendMeanReversionV5",
+   "source": "boxchang_strategy/user_data/strategies/TrendMeanReversionV5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TrendPullbackStrategy",
+   "source": "boxchang_strategy/user_data/strategies/TrendPullbackStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Trend_grid",
+   "source": "remiotore_ccxt-freqtrade/strategies/Trend_grid.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Trend_grid_v1",
+   "source": "remiotore_ccxt-freqtrade/strategies/Trend_grid_v1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Trendhere2",
+   "source": "remiotore_ccxt-freqtrade/strategies/Trendhere2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TripleSuperTrendADXRSI",
+   "source": "remiotore_ccxt-freqtrade/strategies/TripleSuperTrendADXRSI.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "TripleSuperTrendADXRSIK1",
+   "source": "remiotore_ccxt-freqtrade/strategies/TripleSuperTrendADXRSIK2.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "TripleSuperTrendADXRSI__afebf3",
+   "source": "boxchang_strategy/user_data/strategies/TripleSuperTrendADXRSI.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "TripleSuperTrendADXRSI__dc37d8",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/TripleSuperTrendADXRSI/TripleSuperTrendADXRSI.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1"
+   ]
+  },
+  {
+   "strategy": "UltimateHighProbFutures",
+   "source": "remiotore_ccxt-freqtrade/strategies/ultimate_futures_strategy.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x2"
+   ]
+  },
+  {
+   "strategy": "UltraSmartStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Lmao/UltraSmartStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "UltraSmartStrategy_NoStoploss_v2",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Lmao/UltraSmartStrategy_NoStoploss_v2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Vail62",
+   "source": "remiotore_ccxt-freqtrade/strategies/Vail62.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Vedat22OcatRevized",
+   "source": "remiotore_ccxt-freqtrade/strategies/24ocak_2025_ozgur.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "VolatilitySystem",
+   "source": "boxchang_strategy/user_data/strategies/VolatilitySystem.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "VolatimImproved",
+   "source": "remiotore_ccxt-freqtrade/strategies/volatim_improved.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "WTX3",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/scalping/scalpv3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "WhaleWallHunter",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/bollinger/bbw1h.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "XMRMultiTimeframeStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/XMRMultiTimeframeStrategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZTV16X",
+   "source": "remiotore_ccxt-freqtrade/strategies/ZTV16.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZTV16X__7711ce",
+   "source": "remiotore_ccxt-freqtrade/strategies/ZTV16X.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZarTest",
+   "source": "remiotore_ccxt-freqtrade/strategies/ZarTest.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZarTest02",
+   "source": "remiotore_ccxt-freqtrade/strategies/ZarTest02.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Zaratustra",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/Zaratustra.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraDCA2_06",
+   "source": "remiotore_ccxt-freqtrade/strategies/ZaratustraDCA2_06_20250210.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraDCA2_063",
+   "source": "remiotore_ccxt-freqtrade/strategies/ZaratustraDCA2_063_20250121.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraDCA2_063__7c03ce",
+   "source": "remiotore_ccxt-freqtrade/strategies/ZaratustraDCA2_063_20250122.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraDCA2_06__b9b67d",
+   "source": "bustillo_freqtrade-strategies/ZaratustraDCA/ZaratustraDCA2_06.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraDCA2_06__e9e73b",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Zaratustra/ZaratustraDCA2_06.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraDCA2_07",
+   "source": "bustillo_freqtrade-strategies/ZaratustraDCA/ZaratustraDCA2_07.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraDCA5",
+   "source": "bustillo_freqtrade-strategies/ZaratustraDCA/ZaratustraDCA5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV10",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV10.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV11",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV11.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV12",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV12.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV13",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV13.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV14",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV14.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV15",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV15.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV16",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV16.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV17",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV17.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV18",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV18.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV19",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV19.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV20",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV20.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV21",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV21.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV22",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV22.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV23",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV23.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV24",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV24.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV25",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV25.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV26",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV26.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV27",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV27.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV28",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV28.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV29",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV29.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV3",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV30",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/ZaratustraV30.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV31",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV31.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV4",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV4__604e37",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/bollinger/ZaratustraV4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV5",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV5.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV6",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV8",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV8.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ZaratustraV9",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/ZaratustraV9.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "Zone1",
+   "source": "remiotore_ccxt-freqtrade/strategies/Zone1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "aquma3",
+   "source": "remiotore_ccxt-freqtrade/strategies/aqumaaa.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "binance_shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/e0v1e/binance_shorts.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "cascadeTG",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/cascadeTG.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "chatgpt3",
+   "source": "remiotore_ccxt-freqtrade/strategies/dipyo.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "combined_strategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/combined_strategy.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "darphane_501_v3",
+   "source": "remiotore_ccxt-freqtrade/strategies/darphane_501_v3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "degen",
+   "source": "kemplail_freqtrade-stuff/strategies/degen.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "dip",
+   "source": "remiotore_ccxt-freqtrade/strategies/dip.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "e0v1e_dca_temp",
+   "source": "remiotore_ccxt-freqtrade/strategies/e0v1e_dca_temp.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el",
+   "source": "remiotore_ccxt-freqtrade/strategies/el.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/el_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el__315d71",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/el.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el__7d758c",
+   "source": "remiotore_ccxt-freqtrade/strategies/el_hz480.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el__9e5b38",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/cycle-oscillators/el.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el__aa2bb4",
+   "source": "remiotore_ccxt-freqtrade/strategies/el_hz.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_extrema",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/el_extrema.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_extrema__408494",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/rsi-momentum/el_extrema.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_extrema_rolling",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/el_extrema_rolling.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_extrema_rolling_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/el_extrema_rolling_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_extrema_rsiqui",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/el_extrema_rsiqui.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_extrema_rsiqui_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/el_extrema_rsiqui_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_rsiqui",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/el_rsiqui.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_rsiqui_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/el_rsiqui_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "el_rsiqui_unbiased",
+   "source": "remiotore_ccxt-freqtrade/strategies/el_rsiqui_unbiased.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ema_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/ema_2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ema_9_18",
+   "source": "remiotore_ccxt-freqtrade/strategies/ema_9_18.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "expired_v2",
+   "source": "remiotore_ccxt-freqtrade/strategies/expired_v2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "f_scalp2",
+   "source": "remiotore_ccxt-freqtrade/strategies/f_scalp2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "fast",
+   "source": "remiotore_ccxt-freqtrade/strategies/fast.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "futures_testv1",
+   "source": "remiotore_ccxt-freqtrade/strategies/futures_testv1.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "^from numpy\\.lib import math\\b.*$ x1",
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "haGradient",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-repo/hurst-cycle/haGradient.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "ichiV1_plus",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/ichiv1_plus/ichiv1_plus.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "keltner__e42c17",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/channels/keltner.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "laughing_ritchie",
+   "source": "remiotore_ccxt-freqtrade/strategies/laughing_ritchie.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "macdPlus",
+   "source": "remiotore_ccxt-freqtrade/strategies/macdPlus.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "madridImpro",
+   "source": "remiotore_ccxt-freqtrade/strategies/madridImpro.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "madrid_ribbon",
+   "source": "remiotore_ccxt-freqtrade/strategies/madrid_ribbon.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "madrid_ribbon_1h",
+   "source": "remiotore_ccxt-freqtrade/strategies/madrid_ribbon_1h.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "madrid_ribbon_4h",
+   "source": "remiotore_ccxt-freqtrade/strategies/madrid_ribbon_4h.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "madrid_ribbon_8h",
+   "source": "remiotore_ccxt-freqtrade/strategies/madrid_ribbon_8h.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mk1",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/mk1.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mk2",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/mk2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mk3",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/mk3.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mk4",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/mk4.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "mk4__b9e6c9",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/mk4__2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "momentum__84d24b",
+   "source": "TheoBrigitte_freqtrade/strategies/momentum/momentum.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "momentum_rsi",
+   "source": "TheoBrigitte_freqtrade/strategies/momentum/momentum_rsi.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "momentum_wick",
+   "source": "TheoBrigitte_freqtrade/strategies/momentum/momentum_wick.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "myshortingstrategiembe2",
+   "source": "remiotore_ccxt-freqtrade/strategies/myshortingstrategiembe2.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "newstrategy_modify_support_ft",
+   "source": "remiotore_ccxt-freqtrade/strategies/newstrategy_modify_support_ft.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "nexuslite",
+   "source": "remiotore_ccxt-freqtrade/strategies/nexuslite.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "nexuslite_btc",
+   "source": "remiotore_ccxt-freqtrade/strategies/nexuslite_btc.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "nfl",
+   "source": "remiotore_ccxt-freqtrade/strategies/nfl.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "nfl__4684a6",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/bollinger/nfl.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "pair_trading_run_V1_J_price_0811",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u914d\u5bf9\u5957\u5229/pair_trading_run_V1_J_price_0811.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "picasso5mSL15",
+   "source": "remiotore_ccxt-freqtrade/strategies/picasso5mSL15.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "picasso_CE_CTI_STC_EMA_1h_V5_4x_3mt_Jan16_np_Jan20",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/rsi-momentum/picasso_CE_CTI_STC_EMA_1h_V5_4x_3mt_Jan16_np_Jan20.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "pol313",
+   "source": "remiotore_ccxt-freqtrade/strategies/pol313.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x2",
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x1"
+   ]
+  },
+  {
+   "strategy": "prime",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_1_prime.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "roger6",
+   "source": "remiotore_ccxt-freqtrade/strategies/roger6.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "s10lchimoku_zema_hyper",
+   "source": "remiotore_ccxt-freqtrade/strategies/s10lchimoku_zema_hyper.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\bnp\\.(?:NaN|NAN)\\b x1"
+   ]
+  },
+  {
+   "strategy": "trend",
+   "source": "remiotore_ccxt-freqtrade/strategies/trend.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  },
+  {
+   "strategy": "welldone_gotOKX",
+   "source": "remiotore_ccxt-freqtrade/strategies/welldone_gotOKX.py",
+   "legacy_api": false,
+   "compat_fixes": [
+    "\\.fillna\\(\\s*method\\s*=\\s*['\\\"](?:ffill|pad)['\\\"]\\s*\\) x6"
+   ]
+  },
+  {
+   "strategy": "wrsicd",
+   "source": "remiotore_ccxt-freqtrade/strategies/wrsicd.py",
+   "legacy_api": false,
+   "compat_fixes": []
+  }
+ ],
+ "dropped": [
+  {
+   "strategy": "ADX_PRICE_GRID_Strategy_Future_v7",
+   "source": "remiotore_ccxt-freqtrade/strategies/ADX_PRICE_GRID_Strategy_Future_v7.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "AIAgentTradingStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Ai/AIAgentTradingStrategy.py",
+   "reason": "risky code: aiohttp, os (file/env access), requests"
+  },
+  {
+   "strategy": "ANF_v2",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/murrey-gann/ANF_v2.py",
+   "reason": "risky code: __import__, os (file/env access), pickle, subprocess, unlink"
+  },
+  {
+   "strategy": "ANF_v2s",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/murrey-gann/ANF_v2s.py",
+   "reason": "risky code: __import__, os (file/env access), pickle, subprocess, unlink"
+  },
+  {
+   "strategy": "ARIMA_5__2a6c8f",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/arima-statistical/ARIMA_5__2.py",
+   "reason": "needs pmdarima"
+  },
+  {
+   "strategy": "ARIMA_5v2_DCA",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/arima-statistical/ARIMA_5v2_TB_dca.py",
+   "reason": "needs pmdarima"
+  },
+  {
+   "strategy": "ARIMA_FUTURES",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/arima-statistical/ARIMA_FUTURES.py",
+   "reason": "needs pmdarima"
+  },
+  {
+   "strategy": "ARIMA_Futures",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/arima-statistical/ARIMA_Futures.py",
+   "reason": "needs pmdarima"
+  },
+  {
+   "strategy": "ARIMA_MTF_CS",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/arima-statistical/ARIMA_MTF_CS.py",
+   "reason": "needs pmdarima, statsmodels"
+  },
+  {
+   "strategy": "ARIMA_MTF_Trusting_Futures",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/arima-statistical/ARIMA_MTF_Trusting_Futures.py",
+   "reason": "needs pmdarima"
+  },
+  {
+   "strategy": "AdaptiveRenkoStrategy",
+   "source": "TheoBrigitte_freqtrade/strategies/renko/AdaptiveRenkoStrategy.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "AdvancedMultiStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/Multi_Strategy.py",
+   "reason": "needs cProfile, prometheus_client, pstats, semantic_version, threading"
+  },
+  {
+   "strategy": "AlexBandSniperV10AI",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/AlexNexus/AlexBAndSniperV10MLAI.py",
+   "reason": "risky code: os (file/env access), unlink"
+  },
+  {
+   "strategy": "AlexBandSniperV58COptuna",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/AlexNexus/AlexBandSniperV58COptuna.py",
+   "reason": "needs optuna, traceback"
+  },
+  {
+   "strategy": "AlexGKD_FisherTransformV61_ML",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/machine-learning/ALEXGKD_FisherTransformV61_ML.py",
+   "reason": "risky code: os (file/env access), pickle"
+  },
+  {
+   "strategy": "AlexNexusForgeV8AIV2",
+   "source": "remiotore_ccxt-freqtrade/strategies/AlexNexusForgeV8AIV2.py",
+   "reason": "risky code: pickle, unlink"
+  },
+  {
+   "strategy": "AlexNexusForgeV8AIV7",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/murrey-gann/AlexNexusForgeV8AIV8.py",
+   "reason": "risky code: pickle, unlink"
+  },
+  {
+   "strategy": "AlexStrategyFinalV9",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/AlexNexus/AlexStrategyFinalV90.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "Alex_AgentStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/moving-average/Alex_AgentStrategy.py",
+   "reason": "risky code: requests"
+  },
+  {
+   "strategy": "Alex_GKD_FisherTransformV5_ML",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/machine-learning/Alex_GKD_FisherTransformV5_ML.py",
+   "reason": "risky code: os (file/env access), pickle"
+  },
+  {
+   "strategy": "AnchorRSIStrategy",
+   "source": "boxchang_strategy/user_data/strategies/AnchorRSIStrategy.py",
+   "reason": "needs yfinance"
+  },
+  {
+   "strategy": "Aquma1",
+   "source": "remiotore_ccxt-freqtrade/strategies/Aquma1_1.py",
+   "reason": "needs joblib, xgboost"
+  },
+  {
+   "strategy": "BitcoinMLStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Ai/BitcoinMLStrategy.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "BollingerBounce_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Bounce/BollingerBounce_Shorts.py",
+   "reason": "needs Config"
+  },
+  {
+   "strategy": "BotOwskyStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/orderbook-volume/BotOwskyStrategy.py",
+   "reason": "risky code: pickle"
+  },
+  {
+   "strategy": "BotOwskyStrategy__a6cc35",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/orderbook-volume/BotOwskyStrategy__2.py",
+   "reason": "risky code: eval, pickle"
+  },
+  {
+   "strategy": "BotOwskyt4c0",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/orderbook-volume/BotOwskyt4c0s.py",
+   "reason": "risky code: pickle"
+  },
+  {
+   "strategy": "ComprehensiveDeepSeekStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/uncategorized/ComprehensiveDeepSeekStrategy.py",
+   "reason": "needs CompleteOrderStateManager, asyncio, concurrent"
+  },
+  {
+   "strategy": "DSA_General_v2",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/pivot-supertrend/DSA_General_v2.py",
+   "reason": "risky code: os (file/env access), requests, subprocess, unlink"
+  },
+  {
+   "strategy": "DWT_LongShort",
+   "source": "TheoBrigitte_freqtrade/strategies/dwt/DWT_LongShort.py",
+   "reason": "needs custom_indicators, pywt"
+  },
+  {
+   "strategy": "DWT_LongShortHO",
+   "source": "kemplail_freqtrade-stuff/strategies/DWTLongShortHO.py",
+   "reason": "needs custom_indicators, pywt"
+  },
+  {
+   "strategy": "DWT_short",
+   "source": "kemplail_freqtrade-stuff/strategies/DWT_short.py",
+   "reason": "needs custom_indicators, pywt"
+  },
+  {
+   "strategy": "DWT_short__050ba9",
+   "source": "TheoBrigitte_freqtrade/strategies/dwt/DWT_short.py",
+   "reason": "needs custom_indicators, pywt"
+  },
+  {
+   "strategy": "DarkProphetRL",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/hurst-cycle/DarkProphetRL.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "E0V1EAI",
+   "source": "remiotore_ccxt-freqtrade/strategies/E0V1EAI.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "FreqAIHybridStrategy",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Ai/FreqAIHybridStrategy.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "FuturesStrategy1__b76703",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_FuturesStrategy1.py",
+   "reason": "needs user_data"
+  },
+  {
+   "strategy": "GGYT_SAC",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/machine-learning/GGYT_SAC.py",
+   "reason": "risky code: os (file/env access), pickle"
+  },
+  {
+   "strategy": "GKD_FisherTransformV4_ML",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/GKD_TRANSFORMV55_ML/GKD_TRANSFORMV55_ML.py",
+   "reason": "risky code: os (file/env access), pickle"
+  },
+  {
+   "strategy": "GPTStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/GPTStrategy.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "GPTStrategyV4",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/freqai-models/GPTStrategyV4.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "GPTStrategy__3fb9e6",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/samples-and-templates/sample_strategy__3.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "GPTStrategy__72a9b5",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/orderbook-volume/GPT_STR.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "HarmonicDivergencev3",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/ichimoku/HarmonicDivergencev3.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "Horizon_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/Horizon_2.py",
+   "reason": "risky code: requests"
+  },
+  {
+   "strategy": "HybridOrderbookStrategy15m",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/orderbook-volume/HybridOrderbookStrategy15m.py",
+   "reason": "needs sqlite3"
+  },
+  {
+   "strategy": "HybridOrderbookStrategy15m__ea1366",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/orderbook-volume/HybridOrderbookStrategy15m__2.py",
+   "reason": "needs sqlite3"
+  },
+  {
+   "strategy": "ImprovedSampleStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/ImprovedSampleStrategy.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "KeltnerBounce_Shorts",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Bounce/KeltnerBounce_Shorts.py",
+   "reason": "needs Config"
+  },
+  {
+   "strategy": "Klassi",
+   "source": "remiotore_ccxt-freqtrade/strategies/Klassi.py",
+   "reason": "needs email, helper_functions, idna"
+  },
+  {
+   "strategy": "LGRStrategy",
+   "source": "king-No_fvg-trading-strategy/freqtrade/LGRStrategy.py",
+   "reason": "needs smartmoneyconcepts"
+  },
+  {
+   "strategy": "LLMStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/orderbook-volume/LLMStrategy.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "LLMStrategy__072552",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/orderbook-volume/LLMStrategyV1.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "MtfScalper",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/MtfScalper/MtfScalper.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "MyExampleLSTMStrategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/MyExampleLSTMStrategy.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "MyRLStrat",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/freqai-models/MyRLStrat.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "NOTankAi_17",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-repo/battle-tank/NoTankAi_17.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "NOTankAi_19",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-repo/battle-tank/NoTankAi_19_1.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "NOTankAi_19_2",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/battle-tank/NoTankAi_19_2.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "NewsHeliusBitqueryML",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/NewsHeliusBitqueryML/NewsHeliusBitqueryML.py",
+   "reason": "needs indicators"
+  },
+  {
+   "strategy": "PCA301",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_PCA301.py",
+   "reason": "needs custom_indicators, operator, prettytable, pywt"
+  },
+  {
+   "strategy": "PCA3_short",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/elliott-wave/PCA3_short.py",
+   "reason": "needs custom_indicators, operator, prettytable, pyparsing, pywt"
+  },
+  {
+   "strategy": "PCA3_shortberk",
+   "source": "remiotore_ccxt-freqtrade/strategies/PCA3_shortberk.py",
+   "reason": "needs custom_indicators, operator, prettytable, pyparsing, pywt"
+  },
+  {
+   "strategy": "PairTradingV8Deploy",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u914d\u5bf9\u5957\u5229/V8/PairTradingV8Deploy.py",
+   "reason": "risky code: os (file/env access), unlink"
+  },
+  {
+   "strategy": "PeekabooV4__6322fd",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/machine-learning/PeekabooCUSUM.py",
+   "reason": "needs torch"
+  },
+  {
+   "strategy": "PeekabooV4__e6fe88",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/machine-learning/PeekabooV4.py",
+   "reason": "needs torch"
+  },
+  {
+   "strategy": "PriceAlertShort",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_PriceAlertShort.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "QuickAdapterV3",
+   "source": "remiotore_ccxt-freqtrade/strategies/QuickAdapterV3.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "QuickAdapterV35",
+   "source": "remiotore_ccxt-freqtrade/strategies/QuickAdapterV35.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "QuickAdapterV35_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/QuickAdapterV35_2.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "QuickAdapterV3_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/QuickAdapterV3_2.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "QuickAdapterV4",
+   "source": "remiotore_ccxt-freqtrade/strategies/QuickAdapterV4.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "QuickAdapterV4_2",
+   "source": "remiotore_ccxt-freqtrade/strategies/QuickAdapterV4_2.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "RSI_BB_MACD_Nov_2023_1h_2_Dec",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Picasso/RSI_BB_MACD_Nov_2023_1h_2_Dec.py",
+   "reason": "needs cmath"
+  },
+  {
+   "strategy": "RSI_Futures",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/RSI_Futures.py",
+   "reason": "needs numba"
+  },
+  {
+   "strategy": "RSI_Futures__d7eee2",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/rsi-momentum/RSI_Futures__2.py",
+   "reason": "needs numba"
+  },
+  {
+   "strategy": "RustOrderbookStrategy",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/pivot-supertrend/RUSTOBSTRAT.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "RustOrderbookStrategy2",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/pivot-supertrend/RUSTOBSTRAT2.py",
+   "reason": "needs sqlite3"
+  },
+  {
+   "strategy": "SSL_ATR_ADX_VOL",
+   "source": "remiotore_ccxt-freqtrade/strategies/SSL_ATR_ADX_VOL.py",
+   "reason": "needs cmath"
+  },
+  {
+   "strategy": "SampleStrategy__4e0ced",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/gkd/GKD_FisherTransformV4_ML_V1_2_RU-4_FIXED.py",
+   "reason": "risky code: os (file/env access), pickle"
+  },
+  {
+   "strategy": "SmartMoneyConceptsFreqAI",
+   "source": "remiotore_ccxt-freqtrade/strategies/SmartMoneyConceptsFreqAI.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "SupportResistance",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/rsi-momentum/snd.py",
+   "reason": "needs pywt"
+  },
+  {
+   "strategy": "TM3ExtremumHunter",
+   "source": "remiotore_ccxt-freqtrade/strategies/TM3ExtremumHunter.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "TM3MultiClass",
+   "source": "vaskosmihaylov_nfi-custom-strategies/user_data/strategies/Ai/TM3MultiClass.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "TM5QuickAdapterV4",
+   "source": "remiotore_ccxt-freqtrade/strategies/TM5QuickAdapterV4.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "TSPredict",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/ts-predict/TSPredict.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "TSPredict__6d24ab",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/ts-predict/TSPredict__2.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "Tank5HurstDCAV1",
+   "source": "remiotore_ccxt-freqtrade/strategies/Tank5HurstDCAV1.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "TankAi15Modulus__5139ac",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/battle-tank/TankAi15Modulus__2.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "TankAi15__090575",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/battle-tank/TankAi15__3.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "TankAi15__6e7213",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/battle-tank/TankAi15_WIP.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "TankAi15__9abaa7",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/battle-tank/TankAi15_Futures.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "ToTheMoon",
+   "source": "remiotore_ccxt-freqtrade/strategies/Discord_ToTheMoon.py",
+   "reason": "needs ephem"
+  },
+  {
+   "strategy": "VVRPStrategyBETA0_1",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/orderbook-volume/VVRPStrategyBETA0_1.py",
+   "reason": "needs numexpr"
+  },
+  {
+   "strategy": "VVRPStrategyBETA0_1__681e3b",
+   "source": "RoboticAutomations_freqtradestrategies/dirty LA/from-AIRA/orderbook-volume/VVRPStrategyBETA0_1__2.py",
+   "reason": "needs numexpr"
+  },
+  {
+   "strategy": "ZaratustraLukeMod",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/ichimoku/ZaratustraLukeMod.py",
+   "reason": "risky code: requests"
+  },
+  {
+   "strategy": "delist_shorter_strategy",
+   "source": "remiotore_ccxt-freqtrade/strategies/delist_shorter_strategy.py",
+   "reason": "needs io"
+  },
+  {
+   "strategy": "elAI",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/freqai-models/elAI.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "el_extrema_RL",
+   "source": "remiotore_ccxt-freqtrade/my-strategies/el_extrema_RL.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "gridAI",
+   "source": "RoboticAutomations_freqtradestrategies/AIRA - open code v2/strategies/grid-dca/gridAI.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "mycustom",
+   "source": "remiotore_ccxt-freqtrade/strategies/mycustom.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "newstrategy_modify_support_fin",
+   "source": "remiotore_ccxt-freqtrade/strategies/newstrategy_modify_support_fin.py",
+   "reason": "needs FreqAI (machine-learning training)"
+  },
+  {
+   "strategy": "one",
+   "source": "remiotore_ccxt-freqtrade/strategies/one.py",
+   "reason": "needs email, idna"
+  },
+  {
+   "strategy": "pair_trading_get_para_V1_J_price_0723",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u914d\u5bf9\u5957\u5229/pair_trading_get_para_V1_J_price_0723.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "pair_trading_get_para_V5",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u914d\u5bf9\u5957\u5229/pair_trading_get_para_V6.py",
+   "reason": "risky code: os (file/env access)"
+  },
+  {
+   "strategy": "pair_trading_get_para_V8",
+   "source": "NTZ12345678_freqtrade_chinese_discord/\u7b56\u7565\u76f8\u5173/\u914d\u5bf9\u5957\u5229/V8/pair_trading_get_para_V8.py",
+   "reason": "needs PairTradingV8Deploy, statsmodels"
+  },
+  {
+   "strategy": "picasso15m",
+   "source": "remiotore_ccxt-freqtrade/strategies/picasso15m.py",
+   "reason": "needs cmath"
+  },
+  {
+   "strategy": "pso",
+   "source": "remiotore_ccxt-freqtrade/strategies/pso.py",
+   "reason": "needs indicators"
+  },
+  {
+   "strategy": "smart_money_futures",
+   "source": "remiotore_ccxt-freqtrade/strategies/smart_money_futures.py",
+   "reason": "needs indicators, mixins"
+  }
+ ]
+}
